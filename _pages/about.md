@@ -11,7 +11,8 @@ profile:
   more_info: >
     <p>Maintenance Technology Center (MTC)</p>
     <p>King Mongkut's University of Technology Thonburi</p>
-    <p>Bangkok, Thailand</p>
+    <p>Baan Suan Thon Condominium, Phuttabucha 47 Alley</p>
+    <p>Bang Mot, Thung Khru, Bangkok 10140, Thailand</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

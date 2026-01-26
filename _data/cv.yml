@@ -1,8 +1,8 @@
 cv:
   name: Htet Myat Aung (Alexander E. Hong)
   label: Machine Learning Researcher & Automation Engineer
-  email: htetmyataung.ctla@gmail.com
-  phone: "+959250170447"
+  email: htetmyat.aung1@kmutt.ac.th
+  phone: "+660812900801"
   location: Bangkok, Thailand
   image: ""
   url: https://orcid.org/0009-0004-7913-928X
@@ -15,13 +15,15 @@ cv:
       username: htet-myat-aung-11101
     - network: ORCID
       username: 0009-0004-7913-928X
+    - network: Google Scholar
+      username: DVHSkBgAAAAJ
 
   address:
-    street: No.5, Khae Yay Pin Housing Villa 1, Khae Yay Pin Street
-    city: Yangon
-    region: Mingaladon
-    postalCode: ""
-    countryCode: MM
+    street: Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot
+    city: Bangkok
+    region: Thung Khru
+    postalCode: "10140"
+    countryCode: TH
 
   sections:
     Education:
