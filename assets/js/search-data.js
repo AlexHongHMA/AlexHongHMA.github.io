@@ -476,7 +476,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%68%74%65%74%6D%79%61%74%61%75%6E%67.%63%74%6C%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%68%74%65%74%6D%79%61%74.%61%75%6E%67%31@%6B%6D%75%74%74.%61%63.%74%68", "_blank");
         },
       },{
         id: 'social-github',
@@ -490,7 +490,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/htet-myat-aung-11101/", "_blank");
+          window.open("https://www.linkedin.com/in/htet-myat-aung-11101", "_blank");
         },
       },{
         id: 'social-orcid',
