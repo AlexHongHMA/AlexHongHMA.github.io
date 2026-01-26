@@ -397,7 +397,7 @@ ninja.data = [{
           section: "News",},{id: "news-won-best-presentation-award-at-16th-instrumentation-control-and-automation-senior-project-conference-ica-sp-con-2025-for-natural-gas-methane-leak-detection-using-an-infrared-camera-microphone",
           title: 'Won Best Presentation Award at 16th Instrumentation, Control and Automation Senior Project Conference...',
           description: "",
-          section: "News",},{id: "news-won-first-runner-up-award-in-smart-infrastructure-for-smart-city-competition-by-metropolitan-waterworks-authority-medal-sports",
+          section: "News",},{id: "news-won-first-runner-up-award-in-smart-infrastructure-for-smart-city-competition-by-metropolitan-waterworks-authority-featured-in-kmutt-pride-medal-sports",
           title: 'Won First Runner-Up Award in “Smart Infrastructure for Smart City” competition by Metropolitan...',
           description: "",
           section: "News",},{id: "news-won-best-paper-award-at-13th-international-conference-on-information-and-communication-technology-icoict-2025-ieee-xplore-for-optimized-3d-cnn-for-real-time-infrared-natural-gas-leak-classification-with-asst-prof-dr-sarawan-wongsa-trophy",
