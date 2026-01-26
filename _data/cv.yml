@@ -15,8 +15,6 @@ cv:
       username: htet-myat-aung-11101
     - network: ORCID
       username: 0009-0004-7913-928X
-    - network: Google Scholar
-      username: DVHSkBgAAAAJ
 
   address:
     street: Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot
@@ -55,7 +53,7 @@ cv:
         position: Full Time Machine Learning Researcher
         location: Bangkok, Thailand
         start_date: 2025-09
-        end_date: Present
+        end_date: present
         summary: Developing advanced machine learning solutions for non-destructive testing applications. Collaborating with Prof. Cherdpong Jomdecha on cutting-edge detection technology research.
         highlights:
           - "Contributing to innovative maintenance technology solutions for industrial applications"
@@ -87,7 +85,7 @@ cv:
         position: Student Researcher
         location: Bangkok, Thailand
         start_date: 2024-06
-        end_date: Present
+        end_date: present
         summary: Developed a high-accuracy (99.75%) 3D CNN model for methane gas leak detection. Co-Winner of Best Paper Award at IcoICT 2025 (IEEE Xplore).
         highlights:
           - "Applied Running Average, GMM, Moving Average, and Background Subtraction techniques"
@@ -149,12 +147,10 @@ cv:
 
     Awards:
       - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        authors:
-          - "Co-winner with Asst. Prof. Dr. Sarawan Wongsa"
         date: 2025-07-30
         awarder: 13th International Conference on Information and Communication Technology
         url: https://ieeexplore.ieee.org/document/11192973
-        summary: For "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification"
+        summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification"
 
       - title: Best Presentation Award - ICA-SP Con 2025
         date: 2025-04

@@ -4,14 +4,9 @@
 cv_pdf: /assets/pdf/HtetMyatAung_resume.pdf # path to your CV PDF file
 email: htetmyat.aung1@kmutt.ac.th # your email address
 github_username: AlexHongHMA # your GitHub username
-linkedin_username: https://www.linkedin.com/in/htet-myat-aung-11101/ # your LinkedIn username
+linkedin_username: htet-myat-aung-11101 # your LinkedIn username (just the username, not full URL)
 orcid_id: 0009-0004-7913-928X # your ORCID ID
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: DVHSkBgAAAAJ # your Google Scholar ID
-custom_social:
-  google_scholar_custom:
-    logo: https://scholar.google.com/favicon.ico
-    title: Google Scholar
-    url: https://scholar.google.com/citations?hl=en&user=DVHSkBgAAAAJ
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
