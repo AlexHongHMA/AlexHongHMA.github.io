@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-09-01 07:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Started as a Full Time Machine Learning Researcher at Maintenance Technology Center (MTC), KMUTT, collaborating with Prof. Cherdpong Jomdecha on non-destructive detection technology research.
