@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alexhonghma.github.io/HtetMyatAungPortfolio/sitemap.xml
+Sitemap: https://AlexHongHMA.github.io/HtetMyatAungPortfolio/sitemap.xml
