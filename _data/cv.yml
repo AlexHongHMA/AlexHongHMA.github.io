@@ -145,32 +145,33 @@ cv:
           - "Taught IGCSE Computer Science to Secondary 3 students"
 
     Awards:
-      - label: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        details: Co-winner with Asst. Prof. Dr. Sarawan Wongsa, 13th International Conference on Information and Communication Technology, Bandung
+      - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
+        awarder: 13th International Conference on Information and Communication Technology, Bandung
+        summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa
         date: 2025-07-30
 
-      - label: Best Presentation Award - ICA-SP Con 2025
-        details: 16th Instrumentation, Control and Automation Senior Project Conference
+      - title: Best Presentation Award - ICA-SP Con 2025
+        awarder: 16th Instrumentation, Control and Automation Senior Project Conference
         date: 2025-04
 
-      - label: First Runner-Up - Smart Infrastructure for Smart City Competition
-        details: Metropolitan Waterworks Authority, Bangkok
+      - title: First Runner-Up - Smart Infrastructure for Smart City Competition
+        awarder: Metropolitan Waterworks Authority, Bangkok
         date: 2025-07-30
 
-      - label: KMUTT Hall of Fame
-        details: King Mongkut's University of Technology Thonburi
+      - title: KMUTT Hall of Fame
+        awarder: King Mongkut's University of Technology Thonburi
         date: 2025-07-31
 
-      - label: INC Department Outstanding Student Scholarship
-        details: KMUTT - Winter Semester 2024
+      - title: INC Department Outstanding Student Scholarship
+        awarder: KMUTT - Winter Semester 2024
         date: 2024
 
-      - label: INC Department Outstanding Student Scholarship
-        details: KMUTT - Winter Semester 2023
+      - title: INC Department Outstanding Student Scholarship
+        awarder: KMUTT - Winter Semester 2023
         date: 2023
 
-      - label: Judges Award - First Global Challenge 2019
-        details: International Robotics Competition, Dubai, UAE
+      - title: Judges Award - First Global Challenge 2019
+        awarder: International Robotics Competition, Dubai, UAE
         date: 2019-10-27
 
     Publications:
