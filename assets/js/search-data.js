@@ -476,7 +476,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%68%74%65%74%6D%79%61%74.%61%75%6E%67%31@%6B%6D%75%74%74.%61%63.%74%68", "_blank");
+          window.open("mailto:%68%74%65%74%6D%79%61%74%61%75%6E%67.%63%74%6C%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -498,13 +498,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0009-0004-7913-928X", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
