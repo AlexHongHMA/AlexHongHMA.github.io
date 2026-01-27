@@ -43,7 +43,7 @@ I am currently working as a **Full Time Machine Learning Researcher** at the Mai
 
 ### **Recent Achievements**
 
-- **[Best Paper Award Winner](https://inc.kmutt.ac.th/home/page/content/507)** at 13th International Conference on Information and Communication Technology (ICoICT 2025, IEEE Xplore) for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" with 99.75% accuracy
+- **[Best Paper Award](https://inc.kmutt.ac.th/home/page/content/507) Winner** at 13th International Conference on Information and Communication Technology (ICoICT 2025, IEEE Xplore) for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" with 99.75% accuracy
 - **First Runner-Up** in "Smart Infrastructure for Smart City" competition by Metropolitan Waterworks Authority
 - **KMUTT Hall of Fame** recognition for outstanding achievement in Smart Infrastructure development
 - **Best Presentation Award** at ICA-SP Con 2025 for Natural Gas Methane Leak Detection research
