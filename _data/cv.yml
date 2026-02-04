@@ -146,43 +146,35 @@ cv:
           - "Promoted to Head of Department in October 2021"
           - "Taught IGCSE Computer Science to Secondary 3 students"
 
-    "Awards and Honors":
-      - company: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        position: 13th International Conference on Information and Communication Technology, Bandung
-        location: ""
-        start_date: 2025-07
+    Awards:
+      - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
+        awarder: 13th International Conference on Information and Communication Technology, Bandung
         summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa
+        date: 2025-07-30
 
-      - company: Best Presentation Award - ICA-SP Con 2025
-        position: 16th Instrumentation, Control and Automation Senior Project Conference
-        location: ""
-        start_date: 2025-04
+      - title: Best Presentation Award - ICA-SP Con 2025
+        awarder: 16th Instrumentation, Control and Automation Senior Project Conference
+        date: 2025-04
 
-      - company: First Runner-Up - Smart Infrastructure for Smart City Competition
-        position: Metropolitan Waterworks Authority, Bangkok
-        location: ""
-        start_date: 2025-07
+      - title: First Runner-Up - Smart Infrastructure for Smart City Competition
+        awarder: Metropolitan Waterworks Authority, Bangkok
+        date: 2025-07-30
 
-      - company: KMUTT Hall of Fame
-        position: King Mongkut's University of Technology Thonburi
-        location: ""
-        start_date: 2025-07
+      - title: KMUTT Hall of Fame
+        awarder: King Mongkut's University of Technology Thonburi
+        date: 2025-07-31
 
-      - company: INC Department Outstanding Student Scholarship
-        position: KMUTT - Winter Semester 2024
-        location: ""
-        start_date: 2024
+      - title: INC Department Outstanding Student Scholarship
+        awarder: KMUTT - Winter Semester 2024
+        date: 2024
 
-      - company: INC Department Outstanding Student Scholarship
-        position: KMUTT - Winter Semester 2023
-        location: ""
-        start_date: 2023
+      - title: INC Department Outstanding Student Scholarship
+        awarder: KMUTT - Winter Semester 2023
+        date: 2023
 
-      - company: Judges Award - First Global Challenge 2019
-        position: International Robotics Competition, Dubai, UAE
-        location: ""
-        start_date: 2019-10
-        url: https://first.global/2019-nations/myanmar-2019/
+      - title: Judges Award - First Global Challenge 2019
+        awarder: International Robotics Competition, Dubai, UAE
+        date: 2019-10-27
 
     Publications:
       - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
