@@ -147,35 +147,49 @@ cv:
           - "Taught IGCSE Computer Science to Secondary 3 students"
 
     Awards:
-      - name: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        location: 13th International Conference on Information and Communication Technology, Bandung
+      - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
+        authors:
+          - "13th International Conference on Information and Communication Technology, Bandung"
         date: 2025-07-30
-        highlights:
-          - Co-winner with Asst. Prof. Dr. Sarawan Wongsa
+        awarder: IEEE IcoICT 2025
+        summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa
 
-      - name: Best Presentation Award - ICA-SP Con 2025
-        location: 16th Instrumentation, Control and Automation Senior Project Conference
+      - title: Best Presentation Award - ICA-SP Con 2025
+        authors:
+          - "16th Instrumentation, Control and Automation Senior Project Conference"
         date: 2025-04
+        awarder: ICA-SP Con 2025
 
-      - name: First Runner-Up - Smart Infrastructure for Smart City Competition
-        location: Metropolitan Waterworks Authority, Bangkok
+      - title: First Runner-Up - Smart Infrastructure for Smart City Competition
+        authors:
+          - "Metropolitan Waterworks Authority, Bangkok"
         date: 2025-07-30
+        awarder: Metropolitan Waterworks Authority
 
-      - name: KMUTT Hall of Fame
-        location: King Mongkut's University of Technology Thonburi
+      - title: KMUTT Hall of Fame
+        authors:
+          - "King Mongkut's University of Technology Thonburi"
         date: 2025-07-31
+        awarder: KMUTT
 
-      - name: INC Department Outstanding Student Scholarship
-        location: KMUTT - Winter Semester 2024
+      - title: INC Department Outstanding Student Scholarship
+        authors:
+          - "KMUTT - Control System and Instrumentation Department"
         date: 2024
+        awarder: KMUTT - Winter Semester 2024
 
-      - name: INC Department Outstanding Student Scholarship
-        location: KMUTT - Winter Semester 2023
+      - title: INC Department Outstanding Student Scholarship
+        authors:
+          - "KMUTT - Control System and Instrumentation Department"
         date: 2023
+        awarder: KMUTT - Winter Semester 2023
 
-      - name: Judges Award - First Global Challenge 2019
-        location: International Robotics Competition, Dubai, UAE
+      - title: Judges Award - First Global Challenge 2019
+        authors:
+          - "International Robotics Competition, Dubai, UAE"
         date: 2019-10-27
+        awarder: FIRST Global
+        url: https://first.global/2019-nations/myanmar-2019/
 
     Publications:
       - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
