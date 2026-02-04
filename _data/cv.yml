@@ -5,7 +5,7 @@ cv:
   location: Bangkok, Thailand
   image: ""
   url: https://orcid.org/0009-0004-7913-928X
-  summary: Automation Engineering graduate (First Class Honors) with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Developed SLAM algorithms optimized for edge deployment on embedded platforms. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation. Strong foundation in image processing, temporal-spatial feature extraction, and algorithm optimization for resource-constrained robotic environments.
+  summary: Automation Engineering graduate with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Developed SLAM algorithms optimized for edge deployment on embedded platforms. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation. Strong foundation in image processing, temporal-spatial feature extraction, and algorithm optimization for resource-constrained robotic environments.
 
   social_networks:
     - network: GitHub
@@ -146,35 +146,34 @@ cv:
           - "Promoted to Head of Department in October 2021"
           - "Taught IGCSE Computer Science to Secondary 3 students"
 
-    Awards:
-      - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        awarder: 13th International Conference on Information and Communication Technology, Bandung
-        summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa
-        date: 2025-07-30
+    "Awards and Honors":
+      - label: Best Paper Award - IcoICT 2025 (IEEE Xplore)
+        details: 13th International Conference on Information and Communication Technology, Bandung (Co-winner with Asst. Prof. Dr. Sarawan Wongsa)
+        date: 2025-07
 
-      - title: Best Presentation Award - ICA-SP Con 2025
-        awarder: 16th Instrumentation, Control and Automation Senior Project Conference
+      - label: Best Presentation Award - ICA-SP Con 2025
+        details: 16th Instrumentation, Control and Automation Senior Project Conference
         date: 2025-04
 
-      - title: First Runner-Up - Smart Infrastructure for Smart City Competition
-        awarder: Metropolitan Waterworks Authority, Bangkok
-        date: 2025-07-30
+      - label: First Runner-Up - Smart Infrastructure for Smart City Competition
+        details: Metropolitan Waterworks Authority, Bangkok
+        date: 2025-07
 
-      - title: KMUTT Hall of Fame
-        awarder: King Mongkut's University of Technology Thonburi
-        date: 2025-07-31
+      - label: KMUTT Hall of Fame
+        details: King Mongkut's University of Technology Thonburi
+        date: 2025-07
 
-      - title: INC Department Outstanding Student Scholarship
-        awarder: KMUTT - Winter Semester 2024
+      - label: INC Department Outstanding Student Scholarship
+        details: KMUTT - Winter Semester 2024
         date: 2024
 
-      - title: INC Department Outstanding Student Scholarship
-        awarder: KMUTT - Winter Semester 2023
+      - label: INC Department Outstanding Student Scholarship
+        details: KMUTT - Winter Semester 2023
         date: 2023
 
-      - title: Judges Award - First Global Challenge 2019
-        awarder: International Robotics Competition, Dubai, UAE
-        date: 2019-10-27
+      - label: Judges Award - First Global Challenge 2019
+        details: International Robotics Competition, Dubai, UAE
+        date: 2019-10
 
     Publications:
       - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
