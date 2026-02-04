@@ -1,221 +1,304 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Htet Myat Aung (Alexander E. Hong)",
+    "label": "Machine Learning Researcher",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "htetmyataung.ctla@gmail.com",
+    "phone": "+66 81 290 0801",
+    "summary": "Automation Engineering graduate (First Class Honors) with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot, Thung Khru",
+      "postalCode": "10140",
+      "city": "Bangkok",
+      "countryCode": "TH",
+      "region": "Bangkok"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "htetmyataung",
+        "url": "https://www.linkedin.com/in/htetmyataung/"
+      },
+      {
+        "network": "GitHub",
+        "username": "AlexHongHMA",
+        "url": "https://github.com/AlexHongHMA"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab",
+      "position": "Full Time Machine Learning Researcher",
+      "location": "Bangkok, Thailand",
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "summary": "Developing advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha.",
+      "highlights": [
+        "Designed and built efficient data pipelines and workflows using Python and improved data processing efficiency, scalability, and reliability by optimizing pipeline workflow",
+        "Implementing unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems",
+        "Contributing to innovative maintenance technology solutions for industrial applications"
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Computer Vision Research - Natural Gas Leak Detection",
+      "position": "Computer Vision (Student) Researcher",
+      "location": "Bangkok, Thailand",
+      "startDate": "2024-06-01",
+      "endDate": "2025-09-01",
+      "summary": "Optimised 3D-CNN for realtime infrared natural gas leak classification.",
+      "highlights": [
+        "Developed optimized 3D CNN architecture for real-time infrared video classification achieving 99.75% accuracy in methane gas leak detection",
+        "Implemented classical image processing preprocessing pipeline including Gaussian Mixture Models (GMM), Running Average, and adaptive background subtraction",
+        "Optimized model for edge deployment through input resolution scaling and quantization techniques, maintaining 99%+ accuracy while reducing inference time by 60%",
+        "Co-Winner of Best Paper Award at 13th International Conference on Information and Communication Technology Bandung (Hybrid) - IcoICT 2025"
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "HoneyHunt.AI",
+      "position": "Junior Machine Learning Intern / Large Language Model Intern",
+      "location": "Bangkok, Thailand",
+      "startDate": "2024-12-01",
+      "endDate": "2025-02-01",
+      "summary": "Enhanced AI-powered recruitment technology through LLM integration.",
+      "highlights": [
+        "Enhanced automated resume parsing and intelligent job matching systems by integrating AI APIs (advanced LLM APIs)",
+        "Explored Generative AI techniques to design agentic workflows for automated data processing and decision-making",
+        "Implemented API management best practices including versioning, rate limiting, and authentication using API gateways"
+      ]
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab",
+      "position": "Machine Learning Intern",
+      "location": "Bangkok, Thailand",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-01",
+      "summary": "Applied AI/ML techniques to solve real-world infrastructure challenges.",
+      "highlights": [
+        "Independently designed and implemented unsupervised machine learning solutions for GRP pipe inspection using acoustic emission sensor data",
+        "Won First Runner-Up Award in 'Smart Infrastructure for Smart City' competition by Metropolitan Waterworks Authority",
+        "Listed in KMUTT Hall of Fame for outstanding achievement in Smart Infrastructure development"
+      ]
     },
     {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "CODIA Lab, KMUTT & Panasonic Singapore",
+      "position": "Perception (Student) Research Engineer",
+      "location": "Bangkok, Thailand",
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed and optimized SLAM algorithms for edge deployment.",
+      "highlights": [
+        "Developed and optimized SLAM Sparse Bundle Adjustment algorithms in C for visual odometry applications",
+        "Optimized algorithms for edge devices, improving computational efficiency and enabling real-time performance in resource-constrained environments",
+        "Implemented real-time edge deployment on ARM-based embedded platforms"
+      ]
+    },
+    {
+      "name": "COSIN Lab, INC Department",
+      "position": "Student Researcher",
+      "location": "Bangkok, Thailand",
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed ROS2-based autonomous navigation systems.",
+      "highlights": [
+        "Developed ROS2-based autonomous navigation systems integrating IMU and camera sensor fusion for competitive robotics applications",
+        "Implemented micro-ROS framework on microcontrollers for real-time IMU data acquisition and sensor synchronization, achieving sub-10ms latency",
+        "Performed sensor calibration including IMU bias estimation and camera extrinsic alignment to improve localization accuracy"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Laboratory of Robotics and Artificial Intelligence (L.O.R.A)",
+      "location": "Yangon, Myanmar",
+      "position": "Robotics Researcher and Founder",
+      "startDate": "2019-12-01",
+      "endDate": "2021-06-01",
+      "summary": "Founded and led comprehensive robotics research laboratory focusing on practical applications.",
+      "highlights": [
+        "Spearheaded development of autonomous disinfection robots during COVID-19 pandemic in Myanmar",
+        "Managed multiple concurrent research initiatives and mentored junior researchers",
+        "Managed cross-functional communication between engineering teams, public health stakeholders, and external partners"
+      ]
+    },
+    {
+      "organization": "FIRST GLOBAL CHALLENGE 2019",
+      "location": "Dubai, UAE",
+      "position": "Mentor",
+      "startDate": "2019-06-01",
+      "endDate": "2019-10-01",
+      "summary": "Provided technical guidance and strategic mentorship to Myanmar national robotics team.",
+      "highlights": [
+        "Led team to win Judges Award at international robotics competition",
+        "Fostered STEM education and international collaboration in robotics",
+        "Provided technical guidance through structured training sessions and collaborative problem-solving"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
+      "institution": "King Mongkut's University of Technology Thonburi (KMUTT)",
+      "location": "Bangkok, Thailand",
+      "url": "https://www.kmutt.ac.th/",
+      "area": "Automation Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2021-01-01",
+      "endDate": "2025-01-01",
+      "score": "3.66/4.00",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "First Class Honors",
+        "Department: Control System and Instrumentation (INC)",
+        "Thesis: Natural Gas Methane Leak Detection Using an Infrared Camera"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Paper Award",
+      "date": "2025-07-01",
+      "awarder": "13th IEEE International Conference on ICT (IcoICT 2025)",
+      "url": "",
+      "summary": "Co-Winner of Best Paper Award for research on Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "First Runner-Up - Smart Infrastructure for Smart City Competition",
+      "date": "2025-07-01",
+      "awarder": "Metropolitan Waterworks Authority",
+      "summary": "First Runner-Up Award for machine learning solutions in GRP pipe inspection using acoustic emission sensor data"
+    },
+    {
+      "title": "KMUTT Hall of Fame",
+      "date": "2025-08-01",
+      "awarder": "King Mongkut's University of Technology Thonburi",
+      "summary": "Recognition for outstanding achievement in Smart Infrastructure development"
+    },
+    {
+      "title": "Judges Award",
+      "date": "2019-10-01",
+      "awarder": "FIRST GLOBAL Challenge 2019 (Team Mentor, Myanmar National Team)",
+      "summary": "Led Myanmar national robotics team to win Judges Award at international competition in Dubai"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Perception & Vision",
+      "level": "Advanced",
+      "icon": "fa-solid fa-eye",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "OpenCV",
+        "SLAM (Sparse Bundle Adjustment)",
+        "Computer Vision",
+        "Image Processing",
+        "Background Subtraction",
+        "Feature Extraction",
+        "Camera Calibration"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "ROS2",
+        "Robot Kinematics and Control",
+        "Sensor Fusion",
+        "micro-ROS",
+        "Autonomous Navigation",
+        "Gazebo Simulation"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C++",
+        "C & Embedded C",
+        "Bash Scripting"
+      ]
+    },
+    {
+      "name": "ML/DL",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "3D CNN",
+        "Object Detection (YOLO)",
+        "Segmentation",
+        "Model Quantization"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-wrench",
+      "keywords": [
+        "Git & Git Version Control",
+        "Linux",
+        "WSL2"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Burmese",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Machine Learning & Deep Learning",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Semi-supervised Learning",
+        "Deep Neural Networks"
+      ]
+    },
+    {
+      "name": "Computer Vision & Image Processing",
+      "icon": "fa-solid fa-camera",
+      "keywords": [
+        "3D CNN",
+        "Real-time Classification",
+        "SLAM Algorithms",
+        "Object Detection"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Autonomous Navigation",
+        "Control Systems",
+        "Robot Kinematics",
+        "Sensor Integration"
+      ]
+    },
+    {
+      "name": "AI Applications",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Natural Gas Leak Detection",
+        "Acoustic Detection Systems",
+        "LLM Integration",
+        "Edge AI"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    }
-  ]
+  "references": [],
+  "projects": []
 }

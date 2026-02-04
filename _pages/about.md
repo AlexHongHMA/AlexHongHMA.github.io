@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Automation Engineering Graduate | Deep Learning & Computer Vision Researcher | Robotics Enthusiast
+subtitle: Automation Engineering Graduate | Computer Vision & Deep Learning Researcher | Robotics
 
 profile:
   align: right
@@ -30,7 +30,7 @@ latest_posts:
 
 ## **Professional Summary**
 
-Highly motivated Automation Engineering graduate with extensive experience in artificial intelligence, machine learning, and robotics research. Demonstrated expertise in developing advanced computer vision systems, autonomous vehicle control, and deep learning applications. Award-winning researcher with publications in prestigious IEEE conferences and proven track record of academic excellence.
+Automation Engineering graduate **(First Class Honors)** with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. **Best Paper Award winner** at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving **99.75% accuracy** in real-time infrared gas leak detection. Developed SLAM algorithms optimized for edge deployment on embedded platforms. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation. Strong foundation in image processing, temporal-spatial feature extraction, and algorithm optimization for resource-constrained robotic environments.
 
 I am currently working as a **Full Time Machine Learning Researcher** at the Maintenance Technology Center (MTC), collaborating with Prof. Cherdpong Jomdecha on cutting-edge detection technology research for non-destructive testing applications. My research focuses on developing innovative machine learning solutions for industrial maintenance technology challenges.
 
