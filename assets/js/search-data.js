@@ -490,7 +490,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/htet-myat-aung-11101", "_blank");
+          window.open("https://www.linkedin.com/in/htetmyataung-alex", "_blank");
         },
       },{
         id: 'social-orcid',
