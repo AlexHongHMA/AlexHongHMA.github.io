@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-04-03'
 papers:
+  DVHSkBgAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: Development of high-speed inspection technique based on motion-induced eddy current testing for surface railway defects
+    year: '2026'
   DVHSkBgAAAAJ:u-x6o8ySG0sC:
     citations: 0
     title: 'Optimised 3D-CNN for Real-Time Infrared Natural Gas Leak Classification: Balancing Accuracy and Computational Cost'
