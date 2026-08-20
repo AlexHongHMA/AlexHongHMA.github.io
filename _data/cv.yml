@@ -24,6 +24,17 @@ cv:
 
   sections:
     Education:
+      - institution: National Chung Cheng University (CCU)
+        location: Chiayi, Taiwan
+        url: https://deptime.ccu.edu.tw/?Lang=en
+        area: Mechanical Engineering
+        studyType: Master of Science
+        start_date: 2026-09
+        end_date: 2028
+        highlights:
+          - "Full Scholarship recipient"
+          - "Department of Mechanical Engineering; program begins 1 September 2026"
+
       - institution: King Mongkut's University of Technology Thonburi (KMUTT)
         location: Bangkok, Thailand
         url: https://www.kmutt.ac.th/
@@ -53,12 +64,12 @@ cv:
         position: Full Time Machine Learning Researcher
         location: Bangkok, Thailand
         start_date: 2025-09
-        end_date: present
-        summary: Developing advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha, focusing on acoustic emission sensor data analysis and anomaly detection.
+        end_date: 2026-05
+        summary: Developed advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha, focusing on acoustic emission sensor data analysis and anomaly detection.
         highlights:
           - "Designed and built efficient data pipelines and workflows using Python and improved data processing efficiency, scalability, and reliability by optimizing pipeline workflow, resulting in faster model training and deployment"
-          - "Implementing unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems"
-          - "Contributing to innovative maintenance technology solutions for industrial applications"
+          - "Implemented unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems"
+          - "Contributed to innovative maintenance technology solutions for industrial applications, including a Q1 (Web of Science) journal publication on motion-induced eddy current testing for railway defects"
 
       - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab
         position: Machine Learning Intern
@@ -192,6 +203,21 @@ cv:
         url: https://first.global/2019-nations/myanmar-2019/
 
     Publications:
+      - title: Development of high-speed inspection technique based on motion-induced eddy current testing for surface railway defects
+        authors:
+          - N. Brienza
+          - N. Khunsombutcharoen
+          - B. Poopat
+          - C. Janya-anurak
+          - C. Jirarunsatian
+          - R. Mutthanu
+          - Htet Myat Aung
+          - C. Jomdecha
+        publisher: Nondestructive Testing and Evaluation (Taylor & Francis) - Q1, Web of Science
+        releaseDate: 2026-03
+        url: https://www.tandfonline.com/doi/abs/10.1080/10589759.2026.2638558
+        summary: Q1-ranked journal (Web of Science) publication on a high-speed motion-induced eddy current testing (MIECT) technique for detecting surface railway defects, developed with the Maintenance Technology Center (MTC), KMUTT. DOI - 10.1080/10589759.2026.2638558
+
       - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
         authors:
           - Htet Myat Aung

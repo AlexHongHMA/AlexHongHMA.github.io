@@ -9,7 +9,7 @@ last_name: Aung
 contact_note: >
   Feel free to reach me via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Automation Engineering graduate specializing in AI, Machine Learning, and Robotics. Award-winning researcher with publications in IEEE conferences.
+  Automation Engineering graduate specializing in AI, Machine Learning, and Robotics. Incoming M.S. student at National Chung Cheng University, Taiwan. Award-winning researcher with IEEE conference papers and a Q1 (Web of Science) journal publication.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

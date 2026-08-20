@@ -5,7 +5,7 @@
     "image": "",
     "email": "htetmyataung.ctla@gmail.com",
     "phone": "+66 81 290 0801",
-    "summary": "Automation Engineering graduate (First Class Honors) with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation.",
+    "summary": "Automation Engineering graduate with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation.",
     "location": {
       "address": "Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot, Thung Khru",
       "postalCode": "10140",
@@ -32,12 +32,12 @@
       "position": "Full Time Machine Learning Researcher",
       "location": "Bangkok, Thailand",
       "startDate": "2025-09-01",
-      "endDate": "",
-      "summary": "Developing advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha.",
+      "endDate": "2026-05-01",
+      "summary": "Developed advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha.",
       "highlights": [
         "Designed and built efficient data pipelines and workflows using Python and improved data processing efficiency, scalability, and reliability by optimizing pipeline workflow",
-        "Implementing unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems",
-        "Contributing to innovative maintenance technology solutions for industrial applications"
+        "Implemented unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems",
+        "Contributed to innovative maintenance technology solutions for industrial applications, including a Q1 (Web of Science) journal publication on motion-induced eddy current testing for railway defects"
       ]
     },
     {
@@ -137,6 +137,21 @@
   ],
   "education": [
     {
+      "institution": "National Chung Cheng University (CCU)",
+      "location": "Chiayi, Taiwan",
+      "url": "https://deptime.ccu.edu.tw/?Lang=en",
+      "area": "Mechanical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2026-09-01",
+      "endDate": "2028-06-01",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Full Scholarship recipient",
+        "Department of Mechanical Engineering; program begins 1 September 2026"
+      ]
+    },
+    {
       "institution": "King Mongkut's University of Technology Thonburi (KMUTT)",
       "location": "Bangkok, Thailand",
       "url": "https://www.kmutt.ac.th/",
@@ -181,7 +196,22 @@
     }
   ],
   "certificates": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "Development of high-speed inspection technique based on motion-induced eddy current testing for surface railway defects",
+      "publisher": "Nondestructive Testing and Evaluation (Taylor & Francis) - Q1, Web of Science",
+      "releaseDate": "2026-03-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10589759.2026.2638558",
+      "summary": "Q1-ranked journal (Web of Science) publication on a high-speed motion-induced eddy current testing (MIECT) technique for detecting surface railway defects, developed with the Maintenance Technology Center (MTC), KMUTT. DOI: 10.1080/10589759.2026.2638558"
+    },
+    {
+      "name": "Optimised 3D-CNN for Real-Time Infrared Natural Gas Leak Classification: Balancing Accuracy and Computational Cost",
+      "publisher": "13th International Conference on Information and Communication Technology (ICoICT 2025), IEEE",
+      "releaseDate": "2025-07-30",
+      "url": "https://ieeexplore.ieee.org/document/11192973",
+      "summary": "Best Paper Award winner. Optimized 3D CNN achieving 99.75% accuracy for methane gas leak detection using infrared imaging. DOI: 10.1109/ICoICT66265.2025.11192973"
+    }
+  ],
   "skills": [
     {
       "name": "Perception & Vision",

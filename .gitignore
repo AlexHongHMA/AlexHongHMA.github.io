@@ -1,4 +1,5 @@
 _site
+*:Zone.Identifier
 .bundle
 .DS_store
 .idea
