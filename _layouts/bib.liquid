@@ -242,6 +242,13 @@
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
       {% endif %}
+      {% if entry.certificate %}
+        {% if entry.certificate contains '://' %}
+          <a href="{{ entry.certificate }}" class="btn btn-sm z-depth-0" role="button">Cert</a>
+        {% else %}
+          <a href="{{ entry.certificate | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Cert</a>
+        {% endif %}
+      {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
