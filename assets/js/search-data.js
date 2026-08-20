@@ -414,8 +414,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
-            },},{id: "news-awarded-a-full-scholarship-for-the-m-s-program-at-the-department-of-mechanical-engineering-national-chung-cheng-university-taiwan-starting-1-september-2026-mortar-board",
-          title: 'Awarded a Full Scholarship for the M.S. program at the Department of Mechanical...',
+            },},{id: "news-awarded-a-fully-funded-scholarship-for-the-master-of-mechanical-engineering-automation-amp-amp-control-program-at-the-department-of-mechanical-engineering-national-chung-cheng-university-chiayi-taiwan-starting-1-september-2026-mortar-board",
+          title: 'Awarded a Fully Funded Scholarship for the Master of Mechanical Engineering (Automation &amp;amp;amp;...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
