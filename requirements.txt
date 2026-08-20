@@ -1,4 +1,8 @@
 nbconvert
 pyyaml
-rendercv[full]
+# Pinned: RenderCV 2.7 stopped allowing extra keys in the top-level `cv` field,
+# which _data/cv.yml relies on (label, image, url, summary, address) and which
+# _layouts/cv.liquid reads to render the /cv/ page. 2.6 is the last version that
+# renders this file. Unpin only together with a cv.yml + cv.liquid migration.
+rendercv[full]==2.6
 scholarly
