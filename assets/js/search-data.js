@@ -409,6 +409,14 @@ ninja.data = [{
           section: "News",},{id: "news-started-as-a-full-time-machine-learning-researcher-at-maintenance-technology-center-mtc-kmutt-collaborating-with-prof-cherdpong-jomdecha-on-non-destructive-detection-technology-research",
           title: 'Started as a Full Time Machine Learning Researcher at Maintenance Technology Center (MTC),...',
           description: "",
+          section: "News",},{id: "news-our-ndt-amp-e-paper-recognized-as-a-q1-journal-on-web-of-science",
+          title: 'Our NDT&amp;amp;E paper recognized as a Q1 journal on Web of Science',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
+            },},{id: "news-awarded-a-full-scholarship-for-the-m-s-program-at-the-department-of-mechanical-engineering-national-chung-cheng-university-taiwan-starting-1-september-2026-mortar-board",
+          title: 'Awarded a Full Scholarship for the M.S. program at the Department of Mechanical...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
