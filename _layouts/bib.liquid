@@ -197,7 +197,13 @@
     <div class="links">
       {% if entry.award %}
         {% if entry.award == 'Best Paper Award' and entry.abbr == 'ICoICT' %}
-          <a href="https://inc.kmutt.ac.th/home/page/content/507" class="award btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://inc.kmutt.ac.th/home/page/content/507"
+            class="award btn btn-sm z-depth-0"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
           </a>
         {% else %}
@@ -400,7 +406,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

@@ -1,11 +1,11 @@
 cv:
   name: Htet Myat Aung (Alexander E. Hong)
-  label: Automation Engineering Graduate | Deep Learning & Computer Vision Researcher | Robotics Enthusiast
+  label: Incoming Master's Student (Mechanical Engineering), National Chung Cheng University | Machine Learning Researcher | Computer Vision & Robotics
   email: htetmyataung.ctla@gmail.com
-  location: Bangkok, Thailand
+  location: Chiayi, Taiwan
   image: ""
   url: https://orcid.org/0009-0004-7913-928X
-  summary: Automation Engineering graduate with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Developed SLAM algorithms optimized for edge deployment on embedded platforms. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation. Strong foundation in image processing, temporal-spatial feature extraction, and algorithm optimization for resource-constrained robotic environments.
+  summary: Incoming Master of Mechanical Engineering (Automation & Control) at National Chung Cheng University on a fully funded scholarship, and a Machine Learning Researcher with hands-on experience across computer vision, 3D deep learning, SLAM, and data-pipeline engineering. First author of the Best Paper Award-winning study at IEEE ICoICT 2025, which introduced an optimised 3D-CNN reaching 99.75% accuracy in real-time infrared gas-leak classification, and co-author of a Q1 (Web of Science) journal paper on motion-induced eddy current testing for high-speed railway inspection. Proficient in Python and C/C++ for perception applications, with practical experience in camera calibration, sensor integration, ROS2-based autonomous navigation, and model optimisation for resource-constrained environments. Focused on perception, robotic autonomy, and ML-driven automation.
 
   social_networks:
     - network: GitHub
@@ -16,24 +16,23 @@ cv:
       username: 0009-0004-7913-928X
 
   address:
-    street: Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot
-    city: Bangkok
-    region: Thung Khru
-    postalCode: "10140"
-    countryCode: TH
+    city: Chiayi
+    region: Taiwan
+    countryCode: TW
 
   sections:
     Education:
       - institution: National Chung Cheng University (CCU)
         location: Chiayi, Taiwan
         url: https://deptime.ccu.edu.tw/?Lang=en
-        area: Mechanical Engineering
-        studyType: Master of Science
+        area: Mechanical Engineering (Automation & Control)
+        studyType: Master of Mechanical Engineering
         start_date: 2026-09
         end_date: 2028
         highlights:
-          - "Full Scholarship recipient"
-          - "Department of Mechanical Engineering; program begins 1 September 2026"
+          - "Fully Funded Scholarship"
+          - "Department: Mechanical Engineering"
+          - "Program begins 1 September 2026; expected graduation 2028"
 
       - institution: King Mongkut's University of Technology Thonburi (KMUTT)
         location: Bangkok, Thailand
@@ -42,11 +41,12 @@ cv:
         studyType: Bachelor of Engineering
         start_date: 2022
         end_date: 2025
-        score: "GPAX: 3.66/4.00"
+        score: "GPAX: 3.66/4.00 (First Class Honors)"
         courses: "Control System and Instrumentation (INC)"
         highlights:
-          - "First Class Honors"
+          - "Graduated September 2025"
           - "Thesis: Natural Gas Methane Leak Detection Using an Infrared Camera"
+          - "Department: Control System and Instrumentation (INC)"
           - "INC Department Outstanding Student Scholarship - Winter Semester 2023 & 2024"
 
       - institution: Yangon Technological University (Center of Excellence)
@@ -61,15 +61,17 @@ cv:
 
     Experience:
       - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab
-        position: Full Time Machine Learning Researcher
+        position: Machine Learning Researcher (Full-Time)
         location: Bangkok, Thailand
         start_date: 2025-09
         end_date: 2026-05
         summary: Developed advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha, focusing on acoustic emission sensor data analysis and anomaly detection.
         highlights:
-          - "Designed and built efficient data pipelines and workflows using Python and improved data processing efficiency, scalability, and reliability by optimizing pipeline workflow, resulting in faster model training and deployment"
-          - "Implemented unsupervised clustering and anomaly detection algorithms for pattern recognition in complex time-series sensor data from industrial pipe inspection systems"
-          - "Contributed to innovative maintenance technology solutions for industrial applications, including a Q1 (Web of Science) journal publication on motion-induced eddy current testing for railway defects"
+          - "Journal Publication (co-author): Contributed MIECT probe development and signal processing for high-speed railway defect inspection - detecting cracks as small as 0.5 mm at speeds up to 30 km/h on ferromagnetic rail steel (published in Nondestructive Testing and Evaluation)"
+          - "Production Pipeline Engineering: Architected and maintained scalable ETL pipelines in Python to process high-volume acoustic emission sensor data"
+          - "Workflow Automation: Optimized end-to-end ML workflows, reducing data-processing latency and accelerating model-training lifecycles through automated scripting and rigorous version control"
+          - "Model Reliability & Scalability: Engineered robust anomaly-detection systems for industrial pipe inspection, focusing on reproducibility and scalable deployment in Linux-based environments"
+          - "Data Quality Assurance: Implemented automated validation within the data-ingestion pipeline to ensure high-fidelity input for unsupervised clustering models"
 
       - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab
         position: Machine Learning Intern
@@ -95,16 +97,16 @@ cv:
           - "Implemented API management best practices including versioning, rate limiting, and authentication using API gateways to support reliable deployment of GenAI workflows in production environments"
 
     Research:
-      - company: KMUTT - OPTIMISED 3D-CNN FOR REALTIME INFRARED NATURAL GAS LEAK CLASSIFICATION
+      - company: Department of Control Systems and Instrumentation (INC), KMUTT
         position: Computer Vision (Student) Researcher
         location: Bangkok, Thailand
         start_date: 2024-06
         end_date: 2025-09
-        summary: Developed optimized 3D CNN architecture for real-time infrared video classification achieving 99.75% accuracy in methane gas leak detection, processing temporal-spatial features from thermal camera streams.
+        summary: Developed an optimized 3D-CNN for real-time infrared video classification achieving 99.75% accuracy in methane gas-leak detection from temporal-spatial thermal-camera features.
         highlights:
-          - "Implemented classical image processing preprocessing pipeline including Gaussian Mixture Models (GMM), Running Average, and adaptive background subtraction for robust foreground segmentation in varying lighting conditions"
-          - "Optimized model for edge deployment through input resolution scaling (half/quarter size variants) and quantization techniques, maintaining 99%+ accuracy while reducing inference time by 60%"
-          - "Co-Winner of Best Paper Award at 13th International Conference on Information and Communication Technology Bandung (Hybrid) - IcoICT 2025"
+          - "Built a classical image-processing pipeline (Gaussian Mixture Models, Running Average, adaptive background subtraction) for robust foreground segmentation under varying lighting conditions"
+          - "Optimized the model for edge deployment via input-resolution scaling and quantization, maintaining 99%+ accuracy while reducing inference time by 60%"
+          - "First-authored the resulting study, awarded Best Paper at IEEE ICoICT 2025"
 
       - company: CODIA Lab, KMUTT & Panasonic Singapore
         position: Perception (Student) Research Engineer
@@ -115,14 +117,14 @@ cv:
         highlights:
           - "Optimized SLAM Sparse Bundle Adjustment algorithms for edge devices, improving computational efficiency and enabling real-time performance in resource-constrained environments"
 
-      - company: COSIN Lab, INC Department
-        position: Student Researcher
+      - company: COSIN Lab, INC Department, KMUTT
+        position: FormulaStudent Vehicle Control Student Researcher
         location: Bangkok, Thailand
-        start_date: 2024-02
-        end_date: 2024-07
+        start_date: 2023-11
+        end_date: 2024-02
         summary: Developed ROS2-based autonomous navigation systems integrating IMU and camera sensor fusion for competitive robotics applications.
         highlights:
-          - "Implemented micro-ROS framework on microcontrollers for real-time IMU data acquisition and sensor synchronization, achieving sub-10ms latency for control loop feedback"
+          - "Implemented the micro-ROS framework on microcontrollers for real-time IMU data acquisition and sensor synchronization, achieving sub-10ms latency for control loop feedback"
           - "Performed sensor calibration including IMU bias estimation and camera extrinsic alignment to improve localization accuracy in dynamic environments"
 
     Volunteer:
@@ -213,10 +215,10 @@ cv:
           - R. Mutthanu
           - Htet Myat Aung
           - C. Jomdecha
-        publisher: Nondestructive Testing and Evaluation (Taylor & Francis) - Q1, Web of Science
+        publisher: Nondestructive Testing and Evaluation (Taylor & Francis) - Q1, Web of Science (JCR)
         releaseDate: 2026-03
         url: https://www.tandfonline.com/doi/abs/10.1080/10589759.2026.2638558
-        summary: Q1-ranked journal (Web of Science) publication on a high-speed motion-induced eddy current testing (MIECT) technique for detecting surface railway defects, developed with the Maintenance Technology Center (MTC), KMUTT. DOI - 10.1080/10589759.2026.2638558
+        summary: Co-author - contributed MIECT probe development and signal processing. Q1-ranked journal (Web of Science, JCR) publication on a high-speed motion-induced eddy current testing technique for detecting surface railway defects, developed with the Maintenance Technology Center (MTC), KMUTT. DOI - 10.1080/10589759.2026.2638558
 
       - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
         authors:
@@ -225,7 +227,7 @@ cv:
         publisher: 13th International Conference on Information and Communication Technology (ICoICT 2025)
         releaseDate: 2025-07-30
         url: https://ieeexplore.ieee.org/document/11192973
-        summary: Developed a high-accuracy (99.75%) 3D CNN model for methane gas leak detection using infrared imaging. Winner of Best Paper Award. DOI - 10.1109/ICoICT66265.2025.11192973
+        summary: First author - developed a high-accuracy (99.75%) 3D CNN model for methane gas leak detection using infrared imaging. Winner of the Best Paper Award. DOI - 10.1109/ICoICT66265.2025.11192973
 
       - title: Natural Gas Methane Leak Detection Using an Infrared Camera
         authors:

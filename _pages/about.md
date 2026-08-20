@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming M.S. Student, National Chung Cheng University | Computer Vision & Deep Learning Researcher | Robotics
+subtitle: Incoming Master's Student, National Chung Cheng University | Machine Learning Researcher | Computer Vision & Robotics
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Incoming M.S. Student (Sept 2026)</p>
+    <p>Incoming Master's Student (Sept 2026)</p>
     <p>Department of Mechanical Engineering</p>
     <p>National Chung Cheng University</p>
     <p>Minhsiung, Chiayi County, Taiwan</p>
@@ -30,11 +30,11 @@ latest_posts:
 
 ## **Professional Summary**
 
-Automation Engineering graduate with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. **Best Paper Award winner** at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving **99.75% accuracy** in real-time infrared gas leak detection. Developed SLAM algorithms optimized for edge deployment on embedded platforms. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation. Strong foundation in image processing, temporal-spatial feature extraction, and algorithm optimization for resource-constrained robotic environments.
+Incoming **Master of Mechanical Engineering (Automation & Control)** at National Chung Cheng University on a **fully funded scholarship**, and a Machine Learning Researcher with hands-on experience across computer vision, 3D deep learning, SLAM, and data-pipeline engineering. **First author** of the Best Paper Award-winning study at IEEE ICoICT 2025, which introduced an optimised 3D-CNN reaching **99.75% accuracy** in real-time infrared gas-leak classification, and **co-author** of a **Q1 (Web of Science)** journal paper on motion-induced eddy current testing for high-speed railway inspection. Proficient in Python and C/C++ for perception applications, with practical experience in camera calibration, sensor integration, ROS2-based autonomous navigation, and model optimisation for resource-constrained environments. Focused on perception, robotic autonomy, and ML-driven automation.
 
 Until **May 2026** I worked as a **Full Time Machine Learning Researcher** at the Maintenance Technology Center (MTC), KMUTT, collaborating with Prof. Cherdpong Jomdecha on detection technology research for non-destructive testing applications — developing machine learning solutions for industrial maintenance technology challenges.
 
-From **1 September 2026** I am joining the **Department of Mechanical Engineering at National Chung Cheng University (CCU)**, Taiwan, as a **fully funded M.S. student**, where I will continue my research at the intersection of machine learning, perception, and mechanical systems.
+From **1 September 2026** I am joining the **Department of Mechanical Engineering at National Chung Cheng University (CCU)** in Chiayi, Taiwan, as a **fully funded Master of Mechanical Engineering (Automation & Control)** student, where I will continue my research at the intersection of machine learning, perception, and mechanical systems.
 
 ### **Research Interests**
 
@@ -45,7 +45,7 @@ From **1 September 2026** I am joining the **Department of Mechanical Engineerin
 
 ### **Recent Achievements**
 
-- **Full Scholarship** for the M.S. program at the Department of Mechanical Engineering, National Chung Cheng University (CCU), Taiwan — starting September 2026
+- **Fully Funded Scholarship** for the Master of Mechanical Engineering (Automation & Control) program at National Chung Cheng University (CCU), Chiayi, Taiwan — starting September 2026
 - **[Q1 Journal Publication (Web of Science)](https://www.tandfonline.com/doi/abs/10.1080/10589759.2026.2638558)** in _Nondestructive Testing and Evaluation_ (Taylor & Francis) for "Development of high-speed inspection technique based on motion-induced eddy current testing for surface railway defects" — recognized by KMUTT ([DOI: 10.1080/10589759.2026.2638558](https://doi.org/10.1080/10589759.2026.2638558))
 - **[Best Paper Award](https://inc.kmutt.ac.th/home/page/content/507) Winner** at 13th International Conference on Information and Communication Technology (ICoICT 2025, IEEE Xplore) for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" with 99.75% accuracy
 - **First Runner-Up** in "Smart Infrastructure for Smart City" competition by Metropolitan Waterworks Authority

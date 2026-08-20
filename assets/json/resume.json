@@ -140,16 +140,13 @@
       "institution": "National Chung Cheng University (CCU)",
       "location": "Chiayi, Taiwan",
       "url": "https://deptime.ccu.edu.tw/?Lang=en",
-      "area": "Mechanical Engineering",
-      "studyType": "Master of Science",
+      "area": "Mechanical Engineering (Automation & Control)",
+      "studyType": "Master of Mechanical Engineering",
       "startDate": "2026-09-01",
       "endDate": "2028-06-01",
       "score": "",
       "courses": [],
-      "highlights": [
-        "Full Scholarship recipient",
-        "Department of Mechanical Engineering; program begins 1 September 2026"
-      ]
+      "highlights": ["Fully Funded Scholarship", "Department: Mechanical Engineering", "Program begins 1 September 2026; expected graduation 2028"]
     },
     {
       "institution": "King Mongkut's University of Technology Thonburi (KMUTT)",
@@ -231,48 +228,25 @@
       "name": "Robotics",
       "level": "Advanced",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "ROS2",
-        "Robot Kinematics and Control",
-        "Sensor Fusion",
-        "micro-ROS",
-        "Autonomous Navigation",
-        "Gazebo Simulation"
-      ]
+      "keywords": ["ROS2", "Robot Kinematics and Control", "Sensor Fusion", "micro-ROS", "Autonomous Navigation", "Gazebo Simulation"]
     },
     {
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "C & Embedded C",
-        "Bash Scripting"
-      ]
+      "keywords": ["Python", "C++", "C & Embedded C", "Bash Scripting"]
     },
     {
       "name": "ML/DL",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "3D CNN",
-        "Object Detection (YOLO)",
-        "Segmentation",
-        "Model Quantization"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "3D CNN", "Object Detection (YOLO)", "Segmentation", "Model Quantization"]
     },
     {
       "name": "Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-wrench",
-      "keywords": [
-        "Git & Git Version Control",
-        "Linux",
-        "WSL2"
-      ]
+      "keywords": ["Git & Git Version Control", "Linux", "WSL2"]
     }
   ],
   "languages": [
@@ -291,42 +265,22 @@
     {
       "name": "Machine Learning & Deep Learning",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Semi-supervised Learning",
-        "Deep Neural Networks"
-      ]
+      "keywords": ["Supervised Learning", "Unsupervised Learning", "Semi-supervised Learning", "Deep Neural Networks"]
     },
     {
       "name": "Computer Vision & Image Processing",
       "icon": "fa-solid fa-camera",
-      "keywords": [
-        "3D CNN",
-        "Real-time Classification",
-        "SLAM Algorithms",
-        "Object Detection"
-      ]
+      "keywords": ["3D CNN", "Real-time Classification", "SLAM Algorithms", "Object Detection"]
     },
     {
       "name": "Robotics",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Autonomous Navigation",
-        "Control Systems",
-        "Robot Kinematics",
-        "Sensor Integration"
-      ]
+      "keywords": ["Autonomous Navigation", "Control Systems", "Robot Kinematics", "Sensor Integration"]
     },
     {
       "name": "AI Applications",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Natural Gas Leak Detection",
-        "Acoustic Detection Systems",
-        "LLM Integration",
-        "Edge AI"
-      ]
+      "keywords": ["Natural Gas Leak Detection", "Acoustic Detection Systems", "LLM Integration", "Edge AI"]
     }
   ],
   "references": [],
