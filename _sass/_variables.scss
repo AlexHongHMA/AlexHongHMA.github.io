@@ -20,6 +20,10 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+// Site accent. Deep teal in light mode, brightened for contrast on dark backgrounds.
+$teal-color: #0d9488 !default;
+$teal-color-bright: #2dd4bf !default;
+$light-teal-color: color.adjust($teal-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
