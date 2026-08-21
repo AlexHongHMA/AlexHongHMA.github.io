@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won Best Paper Award at 13th International Conference on Information and Communication Technology (ICoICT 2025, IEEE Xplore) for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" with Asst. Prof. Dr. Sarawan Wongsa! :trophy:
+Won Best Paper Award at the 13th International Conference on Information and Communication Technology (ICoICT 2025, IEEE Xplore) in Bandung :indonesia: for "Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" with Asst. Prof. Dr. Sarawan Wongsa! :trophy:
