@@ -9,7 +9,7 @@ last_name: Aung
 contact_note: >
   Feel free to reach me via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Automation Engineering graduate specializing in AI, Machine Learning, and Robotics. Incoming M.S. student at National Chung Cheng University, Taiwan. Award-winning researcher with IEEE conference papers and a Q1 (Web of Science) journal publication.
+  Machine learning researcher working on computer vision, robotic perception, and non-destructive testing. Incoming master's student in Mechanical Engineering at National Chung Cheng University, Taiwan. IEEE Best Paper Award winner with a Q1 (Web of Science) journal publication.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -93,14 +93,16 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: notes # blog_name will be displayed in your blog page
+blog_description: research notes, project write-ups, and the occasional detour
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
+# Must be enabled site-wide for jekyll-paginate-v2 to populate paginator.posts
+# on _pages/blog.md, which requests pagination in its own front matter.
 pagination:
-  enabled: false
+  enabled: true
 
 related_blog_posts:
   enabled: false
@@ -130,17 +132,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -273,8 +265,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["computer-vision", "deep-learning", "robotics", "ndt", "taiwan"] # these tags will be displayed on the front page of your blog
+display_categories: ["research", "personal"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -463,7 +455,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
