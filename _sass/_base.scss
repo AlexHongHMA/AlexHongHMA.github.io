@@ -19,6 +19,29 @@ $font-heading: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif !
 
 body {
   font-family: $font-body;
+  font-size: 0.95rem;
+}
+
+// Slightly tighter heading scale than Bootstrap's defaults.
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
 }
 
 h1,
@@ -243,6 +266,29 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  // Lift the portrait on hover; medium-zoom opens it full size on click.
+  img {
+    cursor: zoom-in;
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+
+  img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 18%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    img {
+      transition: none;
+    }
+
+    img:hover {
+      transform: none;
+    }
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -460,18 +506,18 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.6rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-bottom: 0.4rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 1.5rem;
+        height: 1.6rem;
         margin-bottom: 0.5rem;
 
         image {
@@ -1570,4 +1616,22 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+// Compact external links under the name on the home page.
+.profile-links {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+
+  a {
+    margin-right: 1.1rem;
+    white-space: nowrap;
+
+    &::after {
+      content: " \2197";
+      font-size: 0.8em;
+      opacity: 0.7;
+    }
+  }
 }
