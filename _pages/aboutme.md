@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 title: about
 description: How I got here, the long version.
-nav: true
+nav: false
 nav_order: 5
 ---
 
