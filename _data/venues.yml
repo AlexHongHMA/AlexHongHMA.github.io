@@ -1,13 +1,17 @@
+# Venue badge colors. Journal venues use a neutral slate so they read as
+# distinct from conference badges, which fall back to the site accent.
+# White badge text clears WCAG AA on every fill below.
+
 "NDT&E":
   url: https://www.tandfonline.com/journals/gnte20
-  color: "#c8102e"
+  color: "#33506b"
 
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: "#44566b"
 
 "PhysRev":
   url: https://journals.aps.org/
 
 "Vision":
-  color: "#009f36"
+  color: "#5a6570"
