@@ -51,7 +51,6 @@ h4,
 h5,
 h6,
 .post-title,
-.post-description,
 .card-title {
   font-family: $font-heading;
   font-weight: 600;
@@ -326,7 +325,11 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-family: $font-body;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--global-text-color-light);
 
   a {
     color: inherit;
@@ -884,6 +887,10 @@ ul.task-list input[type="checkbox"] {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        max-width: 150px;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
       }
 
       .abbr {
@@ -1827,7 +1834,7 @@ mjx-container[jax="CHTML"][display="true"] {
 // social icons and a one-line hook stacked on the vertical axis.
 .hero-centered {
   .hero-portrait {
-    width: 168px;
+    width: 220px;
     margin: 0 auto 1.5rem;
 
     img {
@@ -2030,4 +2037,32 @@ mjx-container[jax="CHTML"][display="true"] {
     background-color: var(--global-accent-tint);
     text-decoration: none;
   }
+}
+
+// Interior page titles read larger than the body heading scale.
+.post > .post-header > .post-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+// Keep the centered hero title at its own scale.
+.hero-centered > .post-header > .post-title {
+  font-size: 2rem;
+}
+
+// Publications: align each entry's thumbnail column and text to a common
+// top edge so rows stop looking ragged against the spine.
+.publications ol.bibliography li > .row {
+  align-items: flex-start;
+}
+
+.publications ol.bibliography li .col.col-sm-2.abbr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.publications ol.bibliography li figure {
+  margin: 0;
 }
