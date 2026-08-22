@@ -1618,9 +1618,22 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
 
+// Give the page header room before the body copy starts.
+.post-header {
+  margin-bottom: 1.75rem;
+
+  .post-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .desc {
+    margin-bottom: 0.5rem;
+  }
+}
+
 // Compact external links under the name on the home page.
 .profile-links {
-  margin-top: 0.4rem;
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 0.9rem;
 
