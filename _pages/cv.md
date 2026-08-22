@@ -9,6 +9,8 @@ description: My curriculum vitae, viewable here and available to download.
 
 {% assign cv_file = "/assets/pdf/HtetMyatAung_resume_update.pdf" | relative_url %}
 
+<div class="cv-page" markdown="0">
+
 <p class="cv-intro">
   A downloadable PDF of my full curriculum vitae is available below, covering my
   research, publications, experience and education.
@@ -35,4 +37,6 @@ description: My curriculum vitae, viewable here and available to download.
     <a class="btn btn-sm z-depth-0" href="{{ cv_file }}" download>Download PDF</a>
     <a class="btn btn-sm z-depth-0" href="{{ cv_file }}" target="_blank" rel="noopener noreferrer">Open in new tab</a>
   </p>
+</div>
+
 </div>
