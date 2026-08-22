@@ -20,10 +20,12 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-// Site accent. Deep teal in light mode, brightened for contrast on dark backgrounds.
-$teal-color: #0d9488 !default;
-$teal-color-bright: #2dd4bf !default;
-$light-teal-color: color.adjust($teal-color, $lightness: 25%);
+// Site accent. Light-blue family.
+// Text shades are chosen for WCAG AA: 5.22:1 on white, 6.69:1 on the dark background.
+// The tint is decorative only (hover fills, borders, badge backgrounds).
+$blue-accent: #1f6fb8 !default;
+$blue-accent-light: #5aa9e6 !default;
+$blue-accent-tint: #3d8fd6 !default;
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;

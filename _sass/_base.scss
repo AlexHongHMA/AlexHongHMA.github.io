@@ -266,8 +266,11 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
-  // Lift the portrait on hover; medium-zoom opens it full size on click.
+  // Rectangular portrait with a small radius and a hairline accent border.
+  // Lift on hover; medium-zoom opens it full size on click.
   img {
+    border-radius: 10px;
+    border: 1px solid var(--global-accent-border);
     cursor: zoom-in;
     transition:
       transform 0.25s ease,
@@ -1616,6 +1619,17 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+// Homepage section rhythm. The about layout emits h2 headings for news and
+// selected publications; give each section room to breathe.
+.post > article > h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.post > article > h2:first-of-type {
+  margin-top: 3.5rem;
 }
 
 // Give the page header room before the body copy starts.
