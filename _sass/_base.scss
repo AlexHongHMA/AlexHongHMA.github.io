@@ -1703,3 +1703,66 @@ mjx-container[jax="CHTML"][display="true"] {
     }
   }
 }
+
+// News feed: a compact date column beside each item, replacing the table layout.
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .news-item {
+    grid-template-columns: 86px 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+  }
+}
+
+.news-date {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  line-height: 1.1;
+  text-align: left;
+  padding-top: 0.15rem;
+}
+
+.news-date-month {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
+
+.news-date-day {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--global-text-color);
+}
+
+.news-date-year {
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--global-text-color-light);
+}
+
+.news-body {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+}
