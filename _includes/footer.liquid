@@ -1,32 +1,85 @@
 {% if site.enable_footer %}
-  {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
+  {% assign socials = site.data.socials %}
+  <footer id="site-footer" role="contentinfo" aria-label="Site information">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time> {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}.
+      </p>
 
-  {% if site.footer_fixed %}
-    <footer class="fixed-bottom" role="contentinfo">
-      <div class="container mt-0">
-        {{ footer_contents }}
-      </div>
-    </footer>
-  {% else %}
-    <footer class="sticky-bottom mt-5" role="contentinfo">
-      {% if site.newsletter.enabled %}
-        {% include newsletter.liquid %}
-      {% endif %}
+      <div class="footer-chrome">
+        {% if site.enable_darkmode %}
+          <button
+            id="light-toggle"
+            type="button"
+            class="footer-icon-btn"
+            title="Switch between light and dark"
+            aria-label="Switch between light and dark"
+          >
+            <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+            <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+          </button>
+        {% endif %}
 
-      <div class="container">
-        {{ footer_contents }}
+        {% if socials.github_username %}
+          <a
+            class="footer-icon-btn"
+            href="https://github.com/{{ socials.github_username }}"
+            title="GitHub"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        {% endif %}
+
+        {% if socials.linkedin_username %}
+          <a
+            class="footer-icon-btn"
+            href="https://www.linkedin.com/in/{{ socials.linkedin_username }}"
+            title="LinkedIn"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        {% endif %}
+
+        {% if socials.scholar_userid %}
+          <a
+            class="footer-icon-btn"
+            href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}"
+            title="Google Scholar"
+            aria-label="Google Scholar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        {% endif %}
+
+        {% if socials.orcid_id %}
+          <a
+            class="footer-icon-btn"
+            href="https://orcid.org/{{ socials.orcid_id }}"
+            title="ORCID"
+            aria-label="ORCID"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ai ai-orcid"></i>
+          </a>
+        {% endif %}
+
+        {% if socials.email %}
+          <a class="footer-icon-btn" href="mailto:{{ socials.email | encode_email }}" title="Email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        {% endif %}
       </div>
-    </footer>
-  {% endif %}
+    </div>
+  </footer>
 {% endif %}

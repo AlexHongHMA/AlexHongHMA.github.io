@@ -580,35 +580,75 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Footer
-footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+// Footer: copyright on the left, icon row on the right.
+#site-footer {
+  margin-top: 6rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+}
 
-  .container {
-    color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
-    text-align: center;
-  }
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
 
-  a {
-    color: var(--global-footer-link-color);
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
-    }
+@media (min-width: 576px) {
+  .footer-inner {
+    flex-direction: row;
+    align-items: center;
   }
 }
 
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+.footer-copy {
+  margin: 0;
+  font-weight: 500;
+  color: var(--global-text-color);
+}
 
-  .container {
-    text-align: center;
+.footer-chrome {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    background-color: var(--global-accent-tint);
+    border-color: var(--global-accent-border);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
   }
 }
 
