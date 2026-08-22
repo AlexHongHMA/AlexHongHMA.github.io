@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # social icons live in the footer
 
 announcements:
   enabled: true # includes a list of news items
@@ -24,4 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I teach machines to see things people cannot: methane escaping a pipe in infrared, a hairline crack in railway steel at 30 km/h.
+I'm Htet Myat Aung, and most people call me Alex. I'm a machine learning and robotics researcher working on computer vision, perception, and autonomous robots.
+
+In September 2026 I begin a fully funded Master's in Mechanical Engineering (Automation and Control) at National Chung Cheng University in Taiwan, joining the Machine Learning and Robotics group to work on vision-language-action (VLA) systems for autonomous mobile robots.
+
+Before that I spent a year as a machine learning researcher at KMUTT's Maintenance Technology Center, working on computer vision and anomaly detection for industrial inspection. What I care about most is making perception reliable enough to run on real robots, not just in a lab.
