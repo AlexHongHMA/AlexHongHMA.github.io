@@ -957,7 +957,9 @@ ul.task-list input[type="checkbox"] {
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          color: var(--global-theme-color);
+          border-color: var(--global-accent-border);
+          background-color: var(--global-accent-tint);
         }
       }
 
@@ -1893,5 +1895,139 @@ mjx-container[jax="CHTML"][display="true"] {
       transition: none;
       transform: none;
     }
+  }
+}
+
+// Publications: search control aligned to the top right of the page header.
+.bibsearch-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -3.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.bibsearch-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+
+  &:focus-within {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  input {
+    width: 9rem;
+    border: 0;
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    outline: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .bibsearch-wrap {
+    margin-top: 0;
+    justify-content: flex-start;
+  }
+}
+
+// Publications timeline: jekyll-scholar emits an h2 per year followed by an
+// ol, as siblings. A two-column grid pairs each h2 with the list beside it.
+.publications {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+
+  h2.bibliography {
+    grid-column: 1;
+    color: var(--global-text-color);
+    border-top: 0;
+    padding-top: 0;
+    margin: 0 0 1rem;
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 1;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--global-theme-color);
+      margin-right: 0.5rem;
+      transform: translateY(-4px);
+    }
+  }
+
+  ol.bibliography {
+    grid-column: 1;
+    margin-bottom: 3.5rem;
+
+    li {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .publications {
+    grid-template-columns: 112px 1fr;
+    column-gap: 3rem;
+
+    h2.bibliography {
+      grid-column: 1;
+      position: sticky;
+      top: 88px;
+      align-self: start;
+    }
+
+    ol.bibliography {
+      grid-column: 2;
+    }
+  }
+}
+
+// CV page: centered column, real buttons. The a.btn rule the theme ships is
+// nested inside .publications, so it never reaches this page.
+.cv-page {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.cv-actions {
+  justify-content: flex-start;
+}
+
+.cv-actions a.btn,
+.cv-fallback a.btn {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-accent-border);
+    background-color: var(--global-accent-tint);
+    text-decoration: none;
   }
 }
