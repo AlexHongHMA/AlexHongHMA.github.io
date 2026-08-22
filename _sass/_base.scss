@@ -1766,3 +1766,57 @@ mjx-container[jax="CHTML"][display="true"] {
   line-height: 1.5;
   color: var(--global-text-color);
 }
+
+// CV page: in-page PDF viewer with a mobile fallback card.
+.cv-intro {
+  margin-bottom: 1rem;
+}
+
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-viewer {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  min-height: 480px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background-color: var(--global-card-bg-color);
+}
+
+.cv-fallback {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background-color: var(--global-card-bg-color);
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Most mobile browsers render an embedded PDF as a blank box, so swap in the
+// card below the small-screen breakpoint.
+.cv-fallback-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .cv-viewer {
+    display: none;
+  }
+
+  .cv-fallback-mobile {
+    display: block;
+  }
+}
