@@ -2066,3 +2066,89 @@ mjx-container[jax="CHTML"][display="true"] {
 .publications ol.bibliography li figure {
   margin: 0;
 }
+
+// Shared timeline: a vertical spine with year markers on the left and content
+// hanging off to the right. Used by the About page; the publications list
+// below picks up the same spine so both pages read as one system.
+.timeline {
+  margin-top: 2.5rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.timeline-year {
+  font-family: $font-heading;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--global-text-color);
+  white-space: nowrap;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--global-theme-color);
+    margin-right: 0.5rem;
+    transform: translateY(-4px);
+  }
+
+  span {
+    color: var(--global-text-color-light);
+  }
+}
+
+.timeline-body {
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeline-figure {
+  max-width: 420px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .timeline-item {
+    grid-template-columns: 128px 1fr;
+    column-gap: 0;
+    padding-bottom: 3rem;
+  }
+
+  .timeline-year {
+    position: sticky;
+    top: 88px;
+    align-self: start;
+    padding-top: 0.15rem;
+  }
+
+  .timeline-body {
+    border-left: 1px solid var(--global-divider-color);
+    padding-left: 2.5rem;
+  }
+
+  // Publications share the spine so the two pages match.
+  .publications ol.bibliography {
+    border-left: 1px solid var(--global-divider-color);
+    padding-left: 2.5rem;
+  }
+
+  .publications {
+    column-gap: 0;
+    grid-template-columns: 128px 1fr;
+  }
+}
