@@ -3,7 +3,8 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 70px;
+  // Was 70px to clear the fixed footer, which is disabled via enable_footer.
+  padding-bottom: 0;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
