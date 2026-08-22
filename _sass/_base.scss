@@ -1820,3 +1820,78 @@ mjx-container[jax="CHTML"][display="true"] {
     display: block;
   }
 }
+
+// Centered hero used on the landing page: square portrait, name, tagline,
+// social icons and a one-line hook stacked on the vertical axis.
+.hero-centered {
+  .hero-portrait {
+    width: 168px;
+    margin: 0 auto 1.5rem;
+
+    img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--global-accent-border);
+      cursor: zoom-in;
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgb(0 0 0 / 18%);
+    }
+  }
+
+  .post-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .desc {
+    margin-bottom: 0.75rem;
+    color: var(--global-text-color-light);
+  }
+
+  .hero-social {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+
+    a {
+      margin: 0 0.35rem;
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+
+    svg,
+    img {
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+  }
+
+  .profile-links {
+    justify-content: center;
+  }
+
+  > article > .clearfix {
+    max-width: 34rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-portrait img,
+    .hero-portrait img:hover {
+      transition: none;
+      transform: none;
+    }
+  }
+}
