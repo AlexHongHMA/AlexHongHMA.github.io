@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-beyond-research",
-          title: "beyond research",
-          description: "Robotics labs, teenagers with power tools, and a kitchen.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/beyond/";
-          },
         },{id: "post-seeing-methane-notes-on-the-3d-cnn-behind-the-icoict-paper",
         
           title: "Seeing methane: notes on the 3D-CNN behind the ICoICT paper",
@@ -62,16 +55,20 @@ ninja.data = [{
       },{id: "news-started-research-on-optimized-3d-cnn-for-real-time-infrared-natural-gas-leak-classification-achieving-99-75-accuracy-fire",
           title: 'Started research on Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification, achieving...',
           description: "",
-          section: "News",},{id: "news-won-best-presentation-award-at-16th-instrumentation-control-and-automation-senior-project-conference-ica-sp-con-2025-for-natural-gas-methane-leak-detection-using-an-infrared-camera-microphone",
-          title: 'Won Best Presentation Award at 16th Instrumentation, Control and Automation Senior Project Conference...',
+          section: "News",},{id: "news-best-presentation-award-at-ica-sp-con-2025",
+          title: 'Best Presentation Award at ICA-SP Con 2025',
           description: "",
-          section: "News",},{id: "news-won-first-runner-up-award-in-smart-infrastructure-for-smart-city-competition-by-metropolitan-waterworks-authority-featured-in-kmutt-pride-medal-sports",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-won-first-runner-up-award-in-smart-infrastructure-for-smart-city-competition-by-metropolitan-waterworks-authority-featured-in-kmutt-pride-medal-sports",
           title: 'Won First Runner-Up Award in “Smart Infrastructure for Smart City” competition by Metropolitan...',
           description: "",
-          section: "News",},{id: "news-won-best-paper-award-at-the-13th-international-conference-on-information-and-communication-technology-icoict-2025-ieee-xplore-in-bandung-indonesia-for-optimized-3d-cnn-for-real-time-infrared-natural-gas-leak-classification-with-asst-prof-dr-sarawan-wongsa-trophy",
-          title: 'Won Best Paper Award at the 13th International Conference on Information and Communication...',
+          section: "News",},{id: "news-best-paper-award-at-ieee-icoict-2025",
+          title: 'Best Paper Award at IEEE ICoICT 2025',
           description: "",
-          section: "News",},{id: "news-listed-in-kmutt-hall-of-fame-for-outstanding-achievement-in-smart-infrastructure-development-star",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-listed-in-kmutt-hall-of-fame-for-outstanding-achievement-in-smart-infrastructure-development-star",
           title: 'Listed in KMUTT Hall of Fame for outstanding achievement in Smart Infrastructure development!...',
           description: "",
           section: "News",},{id: "news-started-as-a-full-time-machine-learning-researcher-at-maintenance-technology-center-mtc-kmutt-collaborating-with-prof-cherdpong-jomdecha-on-non-destructive-detection-technology-research-microscope",
