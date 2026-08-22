@@ -25,17 +25,10 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Comprehensive curriculum vitae highlighting my experience in AI/ML research, robotics, and automation engineering.",
+          description: "My curriculum vitae, viewable here and available to download.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-about",
-          title: "about",
-          description: "How I got here, the long version.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/about/";
           },
         },{id: "post-seeing-methane-notes-on-the-3d-cnn-behind-the-icoict-paper",
         
