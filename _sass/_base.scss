@@ -2118,16 +2118,14 @@ mjx-container[jax="CHTML"][display="true"] {
     padding-left: 2.5rem;
   }
 
-  .publications h2.bibliography {
-    position: relative;
-  }
-
-  .publications h2.bibliography::after {
+  // One rail for the whole list, bounded by the grid's own height so it stops
+  // at the last entry instead of running to the viewport edge.
+  .publications::before {
     content: "";
     position: absolute;
     left: 3px;
-    top: 2rem;
-    height: 100vh;
+    top: 1.35rem;
+    bottom: 0;
     width: 1px;
     background-color: var(--global-divider-color);
   }
@@ -2197,7 +2195,8 @@ body > .container[role="main"] {
 .navbar-brand.title {
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
 }
 
 .navbar .nav-link {
@@ -2247,5 +2246,32 @@ body > .container[role="main"] {
       color: var(--global-theme-color);
       text-decoration: none;
     }
+  }
+}
+
+// Breathing room between the fixed navbar and page content.
+body > .container[role="main"] {
+  padding-top: 2.5rem;
+}
+
+// Photo collage inside a timeline block: uniform tiles, no overlap, and it
+// drops to a single column on narrow screens.
+.timeline-collage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 0;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
   }
 }
