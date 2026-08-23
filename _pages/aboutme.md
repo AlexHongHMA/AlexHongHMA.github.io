@@ -34,8 +34,17 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
     <div class="timeline-body">
       <h3>Starting over</h3>
       <p>In 2023 I moved to Thailand and began an engineering degree again from the ground up at KMUTT. I finished my Automation Engineering degree there in 2025, and this time the research came together. My thesis was on detecting methane gas leaks with an infrared camera, which grew into a paper that won Best Paper at IEEE ICoICT 2025. I also co-authored a Q1 journal paper on eddy current testing for railway inspection.</p>
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2025-ICA-SP-Con.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Presenting Natural Gas Methane Leak Detection Using an Infrared Camera at ICA-SP Con 2025" %}
-      <div class="caption">ICA-SP Con 2025, Bangkok.</div>
+      <div class="timeline-collage">
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2025-ICA-SP-Con.jpg" class="img-fluid" zoomable=true alt="Presenting Natural Gas Methane Leak Detection Using an Infrared Camera at ICA-SP Con 2025" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/ica-sp-2025-bestpaper.jpg" class="img-fluid" zoomable=true alt="Best Presentation Award certificate from ICA-SP Con 2025" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/ica-sp-2025-bestpaper-with-Prof.SarawanWongsa.jpg" class="img-fluid" zoomable=true alt="Receiving the ICA-SP Con 2025 Best Presentation Award with Asst. Prof. Dr. Sarawan Wongsa" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/Best-paper-award-ICoICT2025-with-Prof.SarawanWongsa.jpg" class="img-fluid" zoomable=true alt="Receiving the Best Paper Award at IEEE ICoICT 2025 with Asst. Prof. Dr. Sarawan Wongsa" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/Best-paper-award-ICoICT2025-with-Prof.SarawanWongsa-1.jpg" class="img-fluid" zoomable=true alt="Best Paper Award presentation at IEEE ICoICT 2025 in Bandung" %}
+        {% include figure.liquid loading="lazy" path="assets/img/IcoICT_Certificate.png" class="img-fluid" zoomable=true alt="ICoICT 2025 certificate of appreciation for the paper on infrared natural gas leak classification" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/kmutt-ndte-q1-congrats.jpg" class="img-fluid" zoomable=true alt="KMUTT congratulations graphic for the Q1 Web of Science publication in Nondestructive Testing and Evaluation" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/kmutt-why-kmutt.jpg" class="img-fluid" zoomable=true alt="KMUTT alumni feature card for Htet Myat Aung" %}
+      </div>
+      <div class="caption">ICA-SP Con and IEEE ICoICT 2025, and the Q1 publication that followed.</div>
       <p>Along the way I worked across a few labs and roles. I wrote SLAM code in C for a perception project with CODIA Lab and Panasonic Singapore, worked on vehicle control with micro-ROS for a Formula Student project, built agentic LLM workflows during an internship at HoneyHunt.AI, and spent about a year as a machine learning researcher at KMUTT's Maintenance Technology Center, building data pipelines and anomaly detection for industrial inspection.</p>
     </div>
   </div>
