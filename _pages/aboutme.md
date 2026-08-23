@@ -4,7 +4,7 @@ permalink: /about/
 title: about
 description: How I got here, the long version.
 nav: true
-nav_order: 4
+nav_order: 1
 ---
 
 I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and robotics, mostly around computer vision, perception, and getting systems to run on real hardware. The short version of how I got here is that I've built the same thing twice, once in Myanmar and once in Thailand, and the second time it stuck.
