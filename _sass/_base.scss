@@ -1887,7 +1887,7 @@ mjx-container[jax="CHTML"][display="true"] {
 
 // Publications timeline: jekyll-scholar emits an h2 per year followed by an
 // ol, as siblings. A two-column grid pairs each h2 with the list beside it.
-.publications {
+.publications-timeline {
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 2rem;
@@ -2110,17 +2110,23 @@ mjx-container[jax="CHTML"][display="true"] {
   }
 
   // Publications share the same rail geometry.
-  .publications {
+  .publications-timeline {
     position: relative;
   }
 
-  .publications ol.bibliography {
+  .publications-timeline ol.bibliography {
     padding-left: 2.5rem;
+  }
+
+  // The grid's height includes this trailing margin, so zeroing it on the last
+  // group is what stops the rail overshooting the final entry.
+  .publications-timeline ol.bibliography:last-of-type {
+    margin-bottom: 0;
   }
 
   // One rail for the whole list, bounded by the grid's own height so it stops
   // at the last entry instead of running to the viewport edge.
-  .publications::before {
+  .publications-timeline::before {
     content: "";
     position: absolute;
     left: 3px;
@@ -2130,7 +2136,7 @@ mjx-container[jax="CHTML"][display="true"] {
     background-color: var(--global-divider-color);
   }
 
-  .publications {
+  .publications-timeline {
     column-gap: 0;
     grid-template-columns: 128px 1fr;
   }
@@ -2273,5 +2279,58 @@ body > .container[role="main"] {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 8px;
+  }
+}
+
+// Extra room between the navbar and the landing page hero block.
+.hero-header {
+  padding-top: 3rem;
+}
+
+// Timeline media column. Below the wide breakpoint it stacks under the text;
+// above it, it becomes a third column beside the prose.
+.timeline-media {
+  margin-top: 1.25rem;
+
+  figure {
+    margin: 0;
+  }
+
+  .caption {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  // Media sits under the text, aligned to the content column, not the rail.
+  .timeline-media {
+    grid-column: 2;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  // Year, text, photos.
+  .timeline-item {
+    grid-template-columns: 128px minmax(0, 1fr) 300px;
+  }
+
+  .timeline-media {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 0;
+    padding-left: 2rem;
+  }
+
+  // One image per row inside its own column.
+  .timeline-collage {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+
+  .timeline-figure {
+    max-width: 100%;
   }
 }
