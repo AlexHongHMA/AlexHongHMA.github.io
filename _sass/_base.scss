@@ -15,7 +15,16 @@ $font-body:
   "Helvetica Neue",
   Arial,
   sans-serif !default;
-$font-heading: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-heading:
+  "Space Grotesk",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Helvetica,
+  Arial,
+  sans-serif !default;
+// Labels: eyebrow, nav, year markers, badges, captions, footer.
+$font-label: "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !default;
 
 body {
   font-family: $font-body;
@@ -348,7 +357,7 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -2062,6 +2071,7 @@ mjx-container[jax="CHTML"][display="true"] {
 
 @media (min-width: 768px) {
   .timeline-item {
+    position: relative;
     grid-template-columns: 128px 1fr;
     column-gap: 0;
     padding-bottom: 3rem;
@@ -2074,23 +2084,52 @@ mjx-container[jax="CHTML"][display="true"] {
     padding-top: 0.15rem;
   }
 
-  // One continuous spine: every block carries the border, and the padding
-  // below lives inside the bordered column so the line never breaks.
   .timeline-body {
-    border-left: 1px solid var(--global-divider-color);
     padding-left: 2.5rem;
     padding-bottom: 3rem;
   }
 
   .timeline-item:last-child .timeline-body {
     padding-bottom: 0;
-    border-left-color: transparent;
   }
 
-  // Publications share the spine so the two pages match.
+  // The rail drops from the centre of the dot so the line and the dots share
+  // one axis, instead of running beside the year and clipping against it.
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 1.35rem;
+    bottom: 0;
+    width: 1px;
+    background-color: var(--global-divider-color);
+  }
+
+  .timeline-item:last-child::before {
+    display: none;
+  }
+
+  // Publications share the same rail geometry.
+  .publications {
+    position: relative;
+  }
+
   .publications ol.bibliography {
-    border-left: 1px solid var(--global-divider-color);
     padding-left: 2.5rem;
+  }
+
+  .publications h2.bibliography {
+    position: relative;
+  }
+
+  .publications h2.bibliography::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 2rem;
+    height: 100vh;
+    width: 1px;
+    background-color: var(--global-divider-color);
   }
 
   .publications {
@@ -2136,5 +2175,77 @@ body > .container[role="main"] {
   .publications ol.bibliography li > .row {
     grid-template-columns: minmax(0, 1fr);
     gap: 0.75rem;
+  }
+}
+
+// Label face: navbar, eyebrow, year markers, news dates, badges, captions,
+// footer. Everything that reads as a label rather than prose.
+.navbar-brand.title,
+.navbar .nav-link,
+.hero-eyebrow,
+.timeline-year,
+.news-date,
+.caption,
+#site-footer,
+.publications ol.bibliography li .abbr abbr.badge,
+.publications ol.bibliography li .links a.btn,
+.publications ol.bibliography li .links span.award {
+  font-family: $font-label;
+}
+
+// Navbar reads as uppercase labels; the brand is no longer bold.
+.navbar-brand.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.navbar .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+// Interior page titles read as uppercase labels; the hero name does not.
+.post-header .post-title {
+  text-transform: uppercase;
+}
+
+.post-header .post-title.hero-name {
+  text-transform: none;
+}
+
+// Hero identity block: eyebrow, name, icon row.
+.hero-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+
+  a {
+    color: inherit;
+    border-bottom: 1px solid var(--global-accent-border);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.hero-icons {
+  margin: 0.75rem 0 0;
+  font-size: 1.15rem;
+
+  a {
+    margin-right: 1rem;
+    color: var(--global-text-color-light);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 }
