@@ -1929,9 +1929,6 @@ mjx-container[jax="CHTML"][display="true"] {
 
     h2.bibliography {
       grid-column: 1;
-      position: sticky;
-      top: 88px;
-      align-self: start;
     }
 
     ol.bibliography {
@@ -2115,21 +2112,19 @@ mjx-container[jax="CHTML"][display="true"] {
 
   // The grid's height includes this trailing margin, so zeroing it on the last
   // group is what stops the rail overshooting the final entry.
-  .publications-timeline ol.bibliography:last-of-type {
-    margin-bottom: 0;
+  // One rail segment per year, drawn from the year's own box so the line ends
+  // at the last dot. A container-spanning rail cannot do this: the grid's
+  // bottom is the last entry's thumbnail, which hangs below the text.
+  .publications-timeline h2.bibliography {
+    position: relative;
+    align-self: stretch;
   }
 
-  .publications-timeline ol.bibliography:last-of-type li:last-child {
-    margin-bottom: 0;
-  }
-
-  // One rail for the whole list, bounded by the grid's own height so it stops
-  // at the last entry instead of running to the viewport edge.
-  .publications-timeline::before {
+  .publications-timeline h2.bibliography:not(:last-of-type)::after {
     content: "";
     position: absolute;
     left: 3px;
-    top: 1.35rem;
+    top: 2rem;
     bottom: 0;
     width: 1px;
     background-color: var(--global-divider-color);
@@ -2402,4 +2397,16 @@ body > .container[role="main"] {
   font-size: 1.05rem;
   font-style: italic;
   margin: 1.25rem 0;
+}
+
+// medium-zoom scales the same element it opens, so the grid crops applied to
+// thumbnails (aspect-ratio plus object-fit: cover) follow the image into the
+// lightbox and distort it. Exempt the opened state; the grid crops are
+// unchanged.
+img.medium-zoom-image--opened {
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  cursor: zoom-out;
 }
