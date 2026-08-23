@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
+  },{id: "nav-about",
+          title: "about",
+          description: "How I got here, the long version.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about/";
+          },
+        },{id: "nav-news",
           title: "news",
           description: "",
           section: "Navigation",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-about",
-          title: "about",
-          description: "How I got here, the long version.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/about/";
           },
         },{id: "post-seeing-methane-notes-on-the-3d-cnn-behind-the-icoict-paper",
         
