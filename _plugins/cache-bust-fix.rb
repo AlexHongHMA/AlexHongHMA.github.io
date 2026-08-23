@@ -10,7 +10,11 @@ module Jekyll
   module CacheBustFix
     require "digest/md5"
 
-    SOURCES = ["_sass/**/*", "assets/css/*"].freeze
+    # purgecss.config.js is included because it changes the *output* stylesheet
+    # without touching any source file. Omitting it means an edit that alters
+    # what survives the purge ships under an unchanged URL, and caches never
+    # refetch it.
+    SOURCES = ["_sass/**/*", "assets/css/*", "purgecss.config.js"].freeze
 
     def bust_css_cache(file_name)
       contents = SOURCES.flat_map { |glob| Dir[glob].sort }
