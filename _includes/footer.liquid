@@ -3,9 +3,15 @@
   <footer id="site-footer" role="contentinfo" aria-label="Site information">
     <div class="footer-inner">
       <p class="footer-copy">
-        &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time> {{ site.first_name }}
-        {{ site.middle_name }}
-        {{ site.last_name }}.
+        &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+        {% if site.brand_name -%}
+          {{- site.brand_name -}}
+        {%- else -%}
+          {{- site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name -}}
+        {%- endif -%}
+        .
       </p>
 
       <div class="footer-chrome">
