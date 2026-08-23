@@ -24,10 +24,16 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <h3>Speaking at the EMPM Forum</h3>
       <p>I was invited to speak at the <strong>EMPM Student Forum</strong>, held at KMUTT in Bangkok on 22 and 23 September under the theme <em>Voices of Tomorrow: Creating Opportunities through Mobility</em>. The forum brings together students and alumni of the EU Mobility Programme for Myanmar to trade experiences and talk about what comes after the scholarship.</p>
       <p>I joined the fireside talk <strong>"What Opportunities Are Available Out There?"</strong>, which is a question I would have liked someone to answer for me at twenty. Much of what I said came down to the same thing this page is about: the path is rarely linear, and starting over is not the same as starting from nothing.</p>
+      <blockquote class="pull-quote">
+        <p>Don't just study abroad, build abroad.</p>
+      </blockquote>
     </div>
     <div class="timeline-media">
-      <div class="timeline-collage cols-1">
-        {% include figure.liquid loading="lazy" path="assets/img/aboutme/EMPM_talk.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Speaking on the fireside talk panel at the EMPM Student Forum, KMUTT, September 2025" %}
+      <div class="timeline-collage cols-4">
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/EMPM_talk.jpg" class="img-fluid" zoomable=true alt="Speaking on the fireside talk panel at the EMPM Student Forum, KMUTT, September 2025" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/empm-talk.jpg" class="img-fluid" zoomable=true alt="Answering a question on the fireside talk panel at the EMPM Student Forum" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/empm-talk1.jpg" class="img-fluid" zoomable=true alt="Group photograph of EMPM scholarship students and alumni at the forum in Bangkok" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/empm_talk2.jpg" class="img-fluid" zoomable=true alt="Htet Myat Aung with fellow EMPM students after the fireside talk session" %}
       </div>
       <div class="caption">EMPM Student Forum, KMUTT, September 2025.</div>
     </div>
