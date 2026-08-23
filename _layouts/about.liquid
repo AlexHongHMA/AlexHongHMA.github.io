@@ -3,17 +3,41 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">
-          {{- site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name -}}
-        </span>
+    {% if page.eyebrow %}
+      <p class="hero-eyebrow">{{ page.eyebrow }}</p>
+    {% endif %}
+    <h1 class="post-title hero-name">
+      {% if page.hero_name %}
+        {{ page.hero_name }}
+      {% elsif site.title == 'blank' %}
+        {{- site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name -}}
       {% else %}
         {{ site.title }}
       {% endif %}
     </h1>
+    {% assign socials = site.data.socials %}
+    <p class="hero-icons">
+      {% if socials.github_username %}
+        <a href="https://github.com/{{ socials.github_username }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      {% endif %}
+      {% if socials.scholar_userid %}
+        <a
+          href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}"
+          title="Google Scholar"
+          aria-label="Google Scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="ai ai-google-scholar"></i
+        ></a>
+      {% endif %}
+      {% if socials.email %}
+        <a href="mailto:{{ socials.email | encode_email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      {% endif %}
+    </p>
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}

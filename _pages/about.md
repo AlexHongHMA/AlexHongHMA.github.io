@@ -2,7 +2,8 @@
 layout: about
 title: home
 permalink: /
-subtitle: Machine learning · robotic perception
+hero_name: Htet Myat Aung (Alexander E. Hong)
+eyebrow: Master of Mechanical Engineering &middot; Robotics &middot; <a href="https://www.ccu.edu.tw/engindex.php" target="_blank" rel="noopener noreferrer">CCU</a>
 
 profile:
   align: right
