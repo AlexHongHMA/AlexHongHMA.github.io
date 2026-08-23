@@ -26,7 +26,9 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <p>I joined the fireside talk <strong>"What Opportunities Are Available Out There?"</strong>, which is a question I would have liked someone to answer for me at twenty. Much of what I said came down to the same thing this page is about: the path is rarely linear, and starting over is not the same as starting from nothing.</p>
     </div>
     <div class="timeline-media">
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/EMPM_talk.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Speaking on the fireside talk panel at the EMPM Student Forum, KMUTT, September 2025" %}
+      <div class="timeline-collage cols-1">
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/EMPM_talk.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Speaking on the fireside talk panel at the EMPM Student Forum, KMUTT, September 2025" %}
+      </div>
       <div class="caption">EMPM Student Forum, KMUTT, September 2025.</div>
     </div>
   </div>
@@ -39,7 +41,7 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <p>Along the way I worked across a few labs and roles. I wrote SLAM code in C for a perception project with CODIA Lab and Panasonic Singapore, worked on vehicle control with micro-ROS for a Formula Student project, built agentic LLM workflows during an internship at HoneyHunt.AI, and spent about a year as a machine learning researcher at KMUTT's Maintenance Technology Center, building data pipelines and anomaly detection for industrial inspection.</p>
     </div>
     <div class="timeline-media">
-      <div class="timeline-collage">
+      <div class="timeline-collage cols-4">
         {% include figure.liquid loading="lazy" path="assets/img/aboutme/2025-ICA-SP-Con.jpg" class="img-fluid" zoomable=true alt="Presenting Natural Gas Methane Leak Detection Using an Infrared Camera at ICA-SP Con 2025" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/ica-sp-2025-bestpaper.jpg" class="img-fluid" zoomable=true alt="Best Presentation Award certificate from ICA-SP Con 2025" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/ica-sp-2025-bestpaper-with-Prof.SarawanWongsa.jpg" class="img-fluid" zoomable=true alt="Receiving the ICA-SP Con 2025 Best Presentation Award with Asst. Prof. Dr. Sarawan Wongsa" %}
@@ -71,12 +73,12 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <p>That trip is what led to L.O.R.A, the Laboratory of Robotics and AI. I founded it in 2019 and it grew into a group of about forty-four undergraduate students, one of the first youth-run robotics research teams in Myanmar. When COVID hit, we built disinfection robots, the Spray RoboTeam, and donated them to Wai Bar Gi Hospital in Yangon. We competed at Makerfest 2020 and represented Myanmar at a regional technology exchange festival. I still think of L.O.R.A as one of the things I'm proudest of.</p>
     </div>
     <div class="timeline-media">
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2019-RoboLeague.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Team Yangon at the Myanmar RoboLeague championship in 2019" %}
-      <div class="caption">Myanmar RoboLeague, 2019.</div>
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2019-FirstGlobal.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Team Myanmar at the FIRST Global Challenge in Dubai, 2019" %}
-      <div class="caption">FIRST Global Challenge, Dubai, 2019.</div>
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2020-LORA.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="The Laboratory of Robotics and AI team in Yangon" %}
-      <div class="caption">L.O.R.A, Yangon.</div>
+      <div class="timeline-collage cols-3">
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2019-RoboLeague.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Team Yangon at the Myanmar RoboLeague championship in 2019" %}
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2019-FirstGlobal.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Team Myanmar at the FIRST Global Challenge in Dubai, 2019" %}
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2020-LORA.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="The Laboratory of Robotics and AI team in Yangon" %}
+      </div>
+      <div class="caption">Myanmar RoboLeague, 2019. FIRST Global Challenge, Dubai, 2019. L.O.R.A, Yangon.</div>
     </div>
 
   </div>
@@ -89,10 +91,11 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <p>From there it turned into competitions. In 2017 my friends and I organized the first LEGO SUMO robotics contest at YTU. The next year it grew into the YTU Mini-Rolympics, with three different robotics events and eleven teams I helped organize and mentor. By 2019 it had become a real tournament: fifteen teams, company sponsors, and coverage on local media. Somewhere in the middle of all this I was also part of Myanmar's group at the Asia Science Camp in 2018.</p>
     </div>
     <div class="timeline-media">
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2018-Rolympics.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Students competing at the YTU Mini-Rolympics robotics tournament in 2018" %}
-      <div class="caption">YTU Mini-Rolympics, 2018.</div>
-      {% include figure.liquid loading="lazy" path="assets/img/aboutme/2018-AsiaScienceCamp.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Myanmar delegation at the Asia Science Camp in 2018" %}
-      <div class="caption">Asia Science Camp, 2018.</div>
+      <div class="timeline-collage cols-2">
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2018-Rolympics.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Students competing at the YTU Mini-Rolympics robotics tournament in 2018" %}
+        {% include figure.liquid loading="lazy" path="assets/img/aboutme/2018-AsiaScienceCamp.jpg" class="img-fluid rounded z-depth-1 timeline-figure" zoomable=true alt="Myanmar delegation at the Asia Science Camp in 2018" %}
+      </div>
+      <div class="caption">YTU Mini-Rolympics, 2018. Asia Science Camp, 2018.</div>
     </div>
   </div>
 </div>
