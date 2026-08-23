@@ -5,6 +5,10 @@
 body {
   // Was 70px to clear the fixed footer, which is disabled via enable_footer.
   padding-bottom: 0;
+  // Push the footer to the viewport bottom on short pages such as /publications/.
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 

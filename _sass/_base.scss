@@ -268,6 +268,8 @@ ul.task-list input[type="checkbox"] {
   // Rectangular portrait with a small radius and a hairline accent border.
   // Lift on hover; medium-zoom opens it full size on click.
   img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 10px;
     border: 1px solid var(--global-accent-border);
     cursor: zoom-in;
@@ -313,7 +315,8 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 400px;
+    max-width: 45%;
 
     .address {
       p {
@@ -1830,81 +1833,6 @@ mjx-container[jax="CHTML"][display="true"] {
   }
 }
 
-// Centered hero used on the landing page: square portrait, name, tagline,
-// social icons and a one-line hook stacked on the vertical axis.
-.hero-centered {
-  .hero-portrait {
-    width: 220px;
-    margin: 0 auto 1.5rem;
-
-    img {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-      border-radius: 10px;
-      border: 1px solid var(--global-accent-border);
-      cursor: zoom-in;
-      transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
-    }
-
-    img:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 20px rgb(0 0 0 / 18%);
-    }
-  }
-
-  .post-header {
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-
-  .desc {
-    margin-bottom: 0.75rem;
-    color: var(--global-text-color-light);
-  }
-
-  .hero-social {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-
-    a {
-      margin: 0 0.35rem;
-      color: var(--global-text-color-light);
-
-      &:hover {
-        color: var(--global-theme-color);
-        text-decoration: none;
-      }
-    }
-
-    svg,
-    img {
-      width: 1.1rem;
-      height: 1.1rem;
-    }
-  }
-
-  .profile-links {
-    justify-content: center;
-  }
-
-  > article > .clearfix {
-    max-width: 34rem;
-    margin: 0 auto 1rem;
-    text-align: center;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .hero-portrait img,
-    .hero-portrait img:hover {
-      transition: none;
-      transform: none;
-    }
-  }
-}
-
 // Publications: search control aligned to the top right of the page header.
 .bibsearch-wrap {
   display: flex;
@@ -2045,11 +1973,6 @@ mjx-container[jax="CHTML"][display="true"] {
   margin-bottom: 0.5rem;
 }
 
-// Keep the centered hero title at its own scale.
-.hero-centered > .post-header > .post-title {
-  font-size: 2rem;
-}
-
 // Publications: align each entry's thumbnail column and text to a common
 // top edge so rows stop looking ragged against the spine.
 .publications ol.bibliography li > .row {
@@ -2078,7 +2001,7 @@ mjx-container[jax="CHTML"][display="true"] {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 0;
 }
 
 .timeline-year {
@@ -2118,8 +2041,23 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 .timeline-figure {
+  display: block;
+  width: 100%;
   max-width: 420px;
+  height: auto;
   border-radius: 8px;
+}
+
+// Keep figures and captions inside the bordered column.
+.timeline-body figure {
+  margin: 1.25rem 0 0;
+  max-width: 100%;
+}
+
+.timeline-body .caption {
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -2136,9 +2074,17 @@ mjx-container[jax="CHTML"][display="true"] {
     padding-top: 0.15rem;
   }
 
+  // One continuous spine: every block carries the border, and the padding
+  // below lives inside the bordered column so the line never breaks.
   .timeline-body {
     border-left: 1px solid var(--global-divider-color);
     padding-left: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .timeline-item:last-child .timeline-body {
+    padding-bottom: 0;
+    border-left-color: transparent;
   }
 
   // Publications share the spine so the two pages match.
@@ -2150,5 +2096,45 @@ mjx-container[jax="CHTML"][display="true"] {
   .publications {
     column-gap: 0;
     grid-template-columns: 128px 1fr;
+  }
+}
+
+// Let the main container absorb leftover height so the footer rests at the
+// bottom of short pages instead of floating mid-screen.
+body > .container[role="main"] {
+  flex: 1 0 auto;
+}
+
+// Publication rows: a fixed media column beside the content, both top-aligned,
+// replacing Bootstrap's col-sm-2 / col-sm-8 split which left a dead gap.
+.publications ol.bibliography li > .row {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin: 0;
+}
+
+.publications ol.bibliography li > .row > .abbr,
+.publications ol.bibliography li > .row > [class*="col-sm-"] {
+  width: auto;
+  max-width: none;
+  flex: none;
+  padding: 0;
+}
+
+// Venue tag sits at its natural width rather than stretching the column.
+.publications ol.bibliography li .abbr abbr.badge {
+  display: inline-block;
+  width: auto;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 575px) {
+  .publications ol.bibliography li > .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
   }
 }
