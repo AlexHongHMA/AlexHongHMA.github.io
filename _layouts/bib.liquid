@@ -10,7 +10,7 @@
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge rounded"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -22,7 +22,7 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -196,20 +196,20 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        {% if entry.award == 'Best Paper Award' and entry.abbr == 'ICoICT' %}
-          <a
-            href="https://inc.kmutt.ac.th/home/page/content/507"
-            class="award btn btn-sm z-depth-0"
-            role="button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-          </a>
+        {% if entry.award_url %}
+          {% if entry.award_url contains '://' %}
+            <a href="{{ entry.award_url }}" class="award btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+              {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+            </a>
+          {% else %}
+            <a href="{{ entry.award_url | relative_url }}" class="award btn btn-sm z-depth-0" role="button">
+              {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+            </a>
+          {% endif %}
         {% else %}
-          <a class="award btn btn-sm z-depth-0" role="button">
+          <span class="award btn btn-sm z-depth-0">
             {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-          </a>
+          </span>
         {% endif %}
       {% endif %}
       {% if entry.abstract %}
