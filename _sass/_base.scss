@@ -1846,8 +1846,6 @@ mjx-container[jax="CHTML"][display="true"] {
 .bibsearch-wrap {
   display: flex;
   justify-content: flex-end;
-  margin-top: -3.25rem;
-  margin-bottom: 2.5rem;
 }
 
 .bibsearch-field {
@@ -2073,6 +2071,7 @@ mjx-container[jax="CHTML"][display="true"] {
 @media (min-width: 768px) {
   .timeline-item {
     position: relative;
+    padding-bottom: 3rem;
     grid-template-columns: 128px 1fr;
     column-gap: 0;
     padding-bottom: 3rem;
@@ -2087,11 +2086,6 @@ mjx-container[jax="CHTML"][display="true"] {
 
   .timeline-body {
     padding-left: 2.5rem;
-    padding-bottom: 3rem;
-  }
-
-  .timeline-item:last-child .timeline-body {
-    padding-bottom: 0;
   }
 
   // The rail drops from the centre of the dot so the line and the dots share
@@ -2122,6 +2116,10 @@ mjx-container[jax="CHTML"][display="true"] {
   // The grid's height includes this trailing margin, so zeroing it on the last
   // group is what stops the rail overshooting the final entry.
   .publications-timeline ol.bibliography:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .publications-timeline ol.bibliography:last-of-type li:last-child {
     margin-bottom: 0;
   }
 
@@ -2283,15 +2281,10 @@ body > .container[role="main"] {
   }
 }
 
-// Extra room between the navbar and the landing page hero block.
-.hero-header {
-  padding-top: 3rem;
-}
-
 // Timeline media column. Below the wide breakpoint it stacks under the text;
 // above it, it becomes a third column beside the prose.
 .timeline-media {
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 
   figure {
     margin: 0;
@@ -2383,4 +2376,30 @@ body > .container[role="main"] {
   .timeline-collage.cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+}
+
+// Page heading and its optional controls share one row.
+.post-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-header-row .post-title {
+  margin-bottom: 0;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+// Pull quote: the theme blockquote, sized down so it sits inside a timeline
+// block without competing with the heading.
+.pull-quote {
+  font-size: 1.05rem;
+  font-style: italic;
+  margin: 1.25rem 0;
 }

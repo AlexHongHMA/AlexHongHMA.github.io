@@ -4,13 +4,10 @@ permalink: /publications/
 title: publications
 nav: true
 nav_order: 3
+bibsearch: true
 ---
 
 <!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
 
 <div class="publications publications-timeline">
 
