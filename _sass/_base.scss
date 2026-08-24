@@ -2212,6 +2212,20 @@ body > .container[role="main"] {
 
 .post-header .post-title.hero-name {
   text-transform: none;
+  // The full name has to stay on one line. Above the phone breakpoint it is
+  // pinned with nowrap, and the size tracks the viewport so it shrinks to fit
+  // rather than overflowing. Below that it wraps as normal.
+}
+
+// Beats the generic `.post > .post-header > .post-title` size rule above.
+.post > .post-header > .post-title.hero-name {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+@media (min-width: 576px) {
+  .post-header .post-title.hero-name {
+    white-space: nowrap;
+  }
 }
 
 // Hero identity block: eyebrow, name, icon row.
@@ -2300,12 +2314,17 @@ body > .container[role="main"] {
   }
 }
 
-// Landing page hero: name and bio on the left, portrait on the right.
+// Landing page hero: eyebrow and name span the full width, then the bio sits
+// on the left with the portrait on the right.
+.hero-header {
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 2rem;
-  padding-top: 5rem;
 }
 
 .hero-bio > p:last-child {
