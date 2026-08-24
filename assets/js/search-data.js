@@ -86,8 +86,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
-            },},{id: "news-awarded-a-fully-funded-scholarship-for-the-master-of-mechanical-engineering-automation-amp-amp-control-program-at-the-department-of-mechanical-engineering-national-chung-cheng-university-chiayi-taiwan-taiwan-starting-1-september-2026-mortar-board",
-          title: 'Awarded a Fully Funded Scholarship for the Master of Mechanical Engineering (Automation &amp;amp;amp;...',
+            },},{id: "news-awarded-a-fully-funded-scholarship-for-the-master-of-mechanical-engineering-program-at-the-department-of-mechanical-engineering-national-chung-cheng-university-chiayi-taiwan-taiwan-starting-1-september-2026-mortar-board",
+          title: 'Awarded a Fully Funded Scholarship for the Master of Mechanical Engineering program at...',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
