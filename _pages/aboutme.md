@@ -32,7 +32,7 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
       <div class="timeline-collage cols-4">
         {% include figure.liquid loading="lazy" path="assets/img/aboutme/EMPM_talk.jpg" class="img-fluid" zoomable=true alt="Speaking on the fireside talk panel at the EMPM Student Forum, KMUTT, September 2025" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/empm-talk.jpg" class="img-fluid" zoomable=true alt="Answering a question on the fireside talk panel at the EMPM Student Forum" %}
-        {% include figure.liquid loading="lazy" path="assets/img/news/empm-talk1.jpg" class="img-fluid" zoomable=true alt="Group photograph of EMPM scholarship students and alumni at the forum in Bangkok" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/empm-talk_group.jpg" class="img-fluid" zoomable=true alt="Group photograph of EMPM scholarship students and alumni at the forum in Bangkok" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/empm_talk2.jpg" class="img-fluid" zoomable=true alt="Htet Myat Aung with fellow EMPM students after the fireside talk session" %}
       </div>
       <div class="caption">EMPM Student Forum, KMUTT, September 2025.</div>
