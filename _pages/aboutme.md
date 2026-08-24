@@ -53,7 +53,7 @@ I'm Htet Myat Aung, and most people call me Alex. I work in machine learning and
         {% include figure.liquid loading="lazy" path="assets/img/news/ica-sp-2025-bestpaper-with-Prof.SarawanWongsa.jpg" class="img-fluid" zoomable=true alt="Receiving the ICA-SP Con 2025 Best Presentation Award with Asst. Prof. Dr. Sarawan Wongsa" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/Best-paper-award-ICoICT2025-with-Prof.SarawanWongsa.jpg" class="img-fluid" zoomable=true alt="Receiving the Best Paper Award at IEEE ICoICT 2025 with Asst. Prof. Dr. Sarawan Wongsa" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/Best-paper-award-ICoICT2025-with-Prof.SarawanWongsa-1.jpg" class="img-fluid" zoomable=true alt="Best Paper Award presentation at IEEE ICoICT 2025 in Bandung" %}
-        {% include figure.liquid loading="lazy" path="assets/img/IcoICT_Certificate.png" class="img-fluid" zoomable=true alt="ICoICT 2025 certificate of appreciation for the paper on infrared natural gas leak classification" %}
+        {% include figure.liquid loading="lazy" path="assets/img/news/IcoICT_Certificate.png" class="img-fluid" zoomable=true alt="ICoICT 2025 Best Paper Award certificate for the paper on infrared natural gas leak classification" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/kmutt-ndte-q1-congrats.jpg" class="img-fluid" zoomable=true alt="KMUTT congratulations graphic for the Q1 Web of Science publication in Nondestructive Testing and Evaluation" %}
         {% include figure.liquid loading="lazy" path="assets/img/news/kmutt-why-kmutt.jpg" class="img-fluid" zoomable=true alt="KMUTT alumni feature card for Htet Myat Aung" %}
       </div>

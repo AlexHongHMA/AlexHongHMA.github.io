@@ -21,12 +21,12 @@ The work was done with Asst. Prof. Dr. Sarawan Wongsa at KMUTT. It presents a 3D
 
 The award was [announced by KMUTT's Department of Control Systems and Instrumentation](https://inc.kmutt.ac.th/home/page/content/507), and the paper is on [IEEE Xplore](https://ieeexplore.ieee.org/document/11192973).
 
-The conference issued a certificate of authorship for the paper:
+The award certificate, signed by the General Chair and the Technical Program Committee Chair:
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/IcoICT_Certificate.png" class="img-fluid rounded z-depth-1" zoomable=true alt="ICoICT 2025 Certificate of Appreciation naming Sarawan Wongsa and Htet Myat Aung as authors of the paper Optimised 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" %}
+    {% include figure.liquid loading="lazy" path="assets/img/news/IcoICT_Certificate.png" class="img-fluid rounded z-depth-1" zoomable=true alt="ICoICT 2025 certificate awarding the Best Paper Award to Sarawan Wongsa and Htet Myat Aung for the paper Optimised 3D-CNN for Real-Time Infrared Natural Gas Leak Classification" %}
   </div>
 </div>
 
-A [PDF copy]({{ '/assets/pdf/icoict2025-authorship-certificate.pdf' | relative_url }}) is also available.
+A [PDF copy]({{ '/assets/pdf/Best-paper-award.pdf' | relative_url }}) is also available.
