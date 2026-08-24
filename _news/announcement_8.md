@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded a **Fully Funded Scholarship** for the Master of Mechanical Engineering (Automation & Control) program at the [Department of Mechanical Engineering, National Chung Cheng University](https://deptime.ccu.edu.tw/?Lang=zh-tw), Chiayi, Taiwan :taiwan: — starting 1 September 2026! :mortar_board:
+Awarded a **Fully Funded Scholarship** for the Master of Mechanical Engineering program at the [Department of Mechanical Engineering, National Chung Cheng University](https://deptime.ccu.edu.tw/?Lang=zh-tw), Chiayi, Taiwan :taiwan:, starting 1 September 2026! :mortar_board:
