@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - "*.md"
+      - "!CLAUDE.md"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +27,11 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c # v46
         with:
-          files: ./*.md
+          # Only the upstream docs carry <!--ts--> markers. CLAUDE.md has none,
+          # and running the TOC generator on it fails the job.
+          files: |
+            ./*.md
+            !CLAUDE.md
 
       - name: Updated toc on all markdown changed files
         env:
