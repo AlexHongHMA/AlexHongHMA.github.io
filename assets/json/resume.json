@@ -3,12 +3,8 @@
     "name": "Htet Myat Aung (Alexander E. Hong)",
     "label": "Machine Learning Researcher",
     "image": "",
-    "email": "htetmyataung.ctla@gmail.com",
-    "phone": "+66 81 290 0801",
     "summary": "Automation Engineering graduate with hands-on experience in computer vision, 3D deep learning, and robotic perception systems. Best Paper Award winner at IEEE IcoICT 2025 for developing an optimized 3D CNN achieving 99.75% accuracy in real-time infrared gas leak detection. Proficient in Python and C++ for perception applications with practical experience in camera calibration, sensor integration, and ROS2-based autonomous navigation.",
     "location": {
-      "address": "Baan Suan Thon Condominium, Phuttabucha 47 Alley, Bang Mot, Thung Khru",
-      "postalCode": "10140",
       "city": "Bangkok",
       "countryCode": "TH",
       "region": "Bangkok"

@@ -1,15 +1,17 @@
+# Rendered as HTML at /cv/ by _layouts/cv.liquid. The content mirrors the CV PDF
+# this page used to embed. Sections render in this order, after Education.
+# Do not add an email field: the address is published only as an image
+# (_includes/email_image.liquid), which the layout's contact card shows.
 cv:
   name: Htet Myat Aung (Alexander E. Hong)
   label: Incoming Master's Student (Mechanical Engineering), National Chung Cheng University | Machine Learning Researcher | Computer Vision & Robotics
-  email: htetmyataung.ctla@gmail.com
   location: Chiayi, Taiwan
+  website: https://hmaung.com
   image: ""
   url: https://orcid.org/0009-0004-7913-928X
   summary: Incoming Master of Mechanical Engineering (Automation & Control) at National Chung Cheng University on a fully funded scholarship, and a Machine Learning Researcher with hands-on experience across computer vision, 3D deep learning, SLAM, and data-pipeline engineering. First author of the Best Paper Award-winning study at IEEE ICoICT 2025, which introduced an optimised 3D-CNN reaching 99.75% accuracy in real-time infrared gas-leak classification, and co-author of a Q1 (Web of Science) journal paper on motion-induced eddy current testing for high-speed railway inspection. Proficient in Python and C/C++ for perception applications, with practical experience in camera calibration, sensor integration, ROS2-based autonomous navigation, and model optimisation for resource-constrained environments. Focused on perception, robotic autonomy, and ML-driven automation.
 
   social_networks:
-    - network: GitHub
-      username: AlexHongHMA
     - network: LinkedIn
       username: htet-myat-aung-11101
     - network: ORCID
@@ -22,17 +24,16 @@ cv:
 
   sections:
     Education:
-      - institution: National Chung Cheng University (CCU)
+      - institution: National Chung Cheng University
         location: Chiayi, Taiwan
         url: https://deptime.ccu.edu.tw/?Lang=zh-tw
-        area: Mechanical Engineering (Automation & Control)
-        studyType: Master of Mechanical Engineering
+        area: Automation & Control
+        studyType: Incoming Master of Mechanical Engineering
         start_date: 2026-09
-        end_date: 2028
+        end_date: 2028 (Expected)
         highlights:
           - "Fully Funded Scholarship"
           - "Department: Mechanical Engineering"
-          - "Program begins 1 September 2026; expected graduation 2028"
 
       - institution: King Mongkut's University of Technology Thonburi (KMUTT)
         location: Bangkok, Thailand
@@ -40,244 +41,135 @@ cv:
         area: Automation Engineering
         studyType: Bachelor of Engineering
         start_date: 2022
-        end_date: 2025
-        score: "GPAX: 3.66/4.00 (First Class Honors)"
-        courses: "Control System and Instrumentation (INC)"
+        end_date: 2025-09
         highlights:
-          - "Graduated September 2025"
+          - "GPAX: 3.66/4.00 (First Class Honors)"
           - "Thesis: Natural Gas Methane Leak Detection Using an Infrared Camera"
           - "Department: Control System and Instrumentation (INC)"
-          - "INC Department Outstanding Student Scholarship - Winter Semester 2023 & 2024"
+          - "Graduated Sep. 2025"
 
-      - institution: Yangon Technological University (Center of Excellence)
-        location: Yangon, Myanmar
-        area: Mechatronics Engineering
-        studyType: Engineering Studies
-        start_date: 2015
-        end_date: 2022
-        highlights:
-          - "Participated in Myanmar RoboLeague 2019 as Mentor"
-          - "Led First Global Challenge 2019 team representing Myanmar"
+    Publications:
+      - title: Development of High-Speed Inspection Technique Based on Motion-Induced Eddy Current Testing for Surface Railway Defects
+        publisher: Nondestructive Testing and Evaluation (Taylor & Francis), 2026. Q1 - Web of Science (JCR)
+        releaseDate: 2026
+        url: https://doi.org/10.1080/10589759.2026.2638558
+        summary: "Journal article. Co-author - MIECT probe development and signal processing. DOI: 10.1080/10589759.2026.2638558"
 
-    Experience:
-      - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab
+      - title: "Optimised 3D-CNN for Real-Time Infrared Natural Gas Leak Classification: Balancing Accuracy and Computational Cost"
+        publisher: H. M. Aung and S. Wongsa, in Proc. 13th IEEE Int. Conf. on Information and Communication Technology (ICoICT), Bandung, Indonesia, 2025, pp. 1-6
+        releaseDate: 2025
+        url: https://doi.org/10.1109/ICoICT66265.2025.11192973
+        summary: "Conference paper. Best Paper Award. First author. DOI: 10.1109/ICoICT66265.2025.11192973"
+
+    Research & Professional Experience:
+      - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab, KMUTT
         position: Machine Learning Researcher (Full-Time)
-        location: Bangkok, Thailand
+        location: Bangkok, TH
         start_date: 2025-09
         end_date: 2026-05
-        summary: Developed advanced machine learning solutions for non-destructive testing applications under Prof. Cherdpong Jomdecha, focusing on acoustic emission sensor data analysis and anomaly detection.
         highlights:
-          - "Journal Publication (co-author): Contributed MIECT probe development and signal processing for high-speed railway defect inspection - detecting cracks as small as 0.5 mm at speeds up to 30 km/h on ferromagnetic rail steel (published in Nondestructive Testing and Evaluation)"
-          - "Production Pipeline Engineering: Architected and maintained scalable ETL pipelines in Python to process high-volume acoustic emission sensor data"
-          - "Workflow Automation: Optimized end-to-end ML workflows, reducing data-processing latency and accelerating model-training lifecycles through automated scripting and rigorous version control"
-          - "Model Reliability & Scalability: Engineered robust anomaly-detection systems for industrial pipe inspection, focusing on reproducibility and scalable deployment in Linux-based environments"
-          - "Data Quality Assurance: Implemented automated validation within the data-ingestion pipeline to ensure high-fidelity input for unsupervised clustering models"
+          - "**Journal Publication (co-author):** Contributed MIECT probe development and signal processing for high-speed railway defect inspection - detecting cracks as small as 0.5 mm at speeds up to 30 km/h on ferromagnetic rail steel (published in Nondestructive Testing and Evaluation; see Publications)."
+          - "**Production Pipeline Engineering:** Architected and maintained scalable ETL pipelines in Python to process high-volume acoustic emission sensor data."
+          - "**Workflow Automation:** Optimized end-to-end ML workflows, reducing data-processing latency and accelerating model-training lifecycles through automated scripting and rigorous version control."
+          - "**Model Reliability & Scalability:** Engineered robust anomaly-detection systems for industrial pipe inspection, focusing on reproducibility and scalable deployment in Linux-based environments."
+          - "**Data Quality Assurance:** Implemented automated validation within the data-ingestion pipeline to ensure high-fidelity input for unsupervised clustering models."
 
-      - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab
-        position: Machine Learning Intern
-        location: Bangkok, Thailand
-        start_date: 2025-06
-        end_date: 2025-08
-        summary: Independently designed and implemented unsupervised machine learning solutions for GRP pipe inspection using acoustic emission sensor data, demonstrating strong problem-solving and analytical skills in identifying patterns from complex, real-world infrastructure data on Linux based WSL2 platform with version control via Git.
-        highlights:
-          - "Won First Runner-Up Award in 'Smart Infrastructure for Smart City' competition by Metropolitan Waterworks Authority"
-          - "Listed in KMUTT Hall of Fame for outstanding achievement in Smart Infrastructure development"
-          - "Applied AI/ML techniques to solve real-world infrastructure challenges"
-
-      - company: HoneyHunt.AI
-        position: Junior Machine Learning Intern / Large Language Model Intern
-        location: Bangkok, Thailand
-        start_date: 2024-12
-        end_date: 2025-02
-        summary: Enhanced automated resume parsing and intelligent job matching systems by integrating AI APIs (advanced LLM APIs), improving accuracy and scalability.
-        highlights:
-          - "Improved algorithm scalability and matching accuracy for production-level deployment"
-          - "Contributed to product development in AI-powered recruitment technology"
-          - "Explored Generative AI techniques to design agentic workflows for automated data processing and decision-making, leveraging LLMs and prompt engineering to optimize AI-driven recruitment solutions"
-          - "Implemented API management best practices including versioning, rate limiting, and authentication using API gateways to support reliable deployment of GenAI workflows in production environments"
-
-    Research:
       - company: Department of Control Systems and Instrumentation (INC), KMUTT
         position: Computer Vision (Student) Researcher
-        location: Bangkok, Thailand
+        location: Bangkok, TH
         start_date: 2024-06
         end_date: 2025-09
-        summary: Developed an optimized 3D-CNN for real-time infrared video classification achieving 99.75% accuracy in methane gas-leak detection from temporal-spatial thermal-camera features.
         highlights:
-          - "Built a classical image-processing pipeline (Gaussian Mixture Models, Running Average, adaptive background subtraction) for robust foreground segmentation under varying lighting conditions"
-          - "Optimized the model for edge deployment via input-resolution scaling and quantization, maintaining 99%+ accuracy while reducing inference time by 60%"
-          - "First-authored the resulting study, awarded Best Paper at IEEE ICoICT 2025"
+          - "Developed an optimized 3D-CNN for real-time infrared video classification achieving 99.75% accuracy in methane gas-leak detection from temporal-spatial thermal-camera features."
+          - "Built a classical image-processing pipeline (Gaussian Mixture Models, Running Average, adaptive background subtraction) for robust foreground segmentation under varying lighting conditions."
+          - "Optimized the model for edge deployment via input-resolution scaling and quantization, maintaining 99%+ accuracy while reducing inference time by 60%."
+          - "First-authored the resulting study, awarded Best Paper at IEEE ICoICT 2025 (see Publications)."
+
+      - company: Maintenance Technology Center (MTC) - Non-Destructive Detection Technology Lab, KMUTT
+        position: Machine Learning Intern
+        location: Bangkok, TH
+        start_date: 2025-06
+        end_date: 2025-08
+        highlights:
+          - "Independently designed and implemented unsupervised ML solutions for GRP pipe inspection using acoustic emission sensor data on a Linux-based WSL2 platform with Git version control."
+          - 'Won First Runner-Up Award in the "Smart Infrastructure for Smart City" competition by the Metropolitan Waterworks Authority.'
+          - "Listed in the KMUTT Hall of Fame for outstanding achievement in Smart Infrastructure development."
+
+      - company: HoneyHunt.AI
+        position: Junior ML / Large Language Model Intern
+        location: Bangkok, TH
+        start_date: 2024-12
+        end_date: 2025-02
+        highlights:
+          - "Designed and deployed agentic workflows using Generative AI to automate data processing and decision-making for AI-powered recruitment, directly supporting operational efficiency."
+          - "Improved algorithm scalability and matching accuracy for production-level deployment."
+          - "Implemented API management best practices including versioning, rate limiting, and authentication using API gateways for reliable GenAI workflow deployment."
 
       - company: CODIA Lab, KMUTT & Panasonic Singapore
         position: Perception (Student) Research Engineer
-        location: Bangkok, Thailand
+        location: Bangkok, TH
         start_date: 2024-02
         end_date: 2024-07
-        summary: Developed and optimized SLAM Sparse Bundle Adjustment algorithms in C for visual odometry applications for real-time edge deployment on ARM-based embedded platforms.
         highlights:
-          - "Optimized SLAM Sparse Bundle Adjustment algorithms for edge devices, improving computational efficiency and enabling real-time performance in resource-constrained environments"
+          - "Developed and optimized SLAM Sparse Bundle Adjustment algorithms in C for visual odometry applications targeting real-time edge deployment on ARM-based embedded platforms."
 
       - company: COSIN Lab, INC Department, KMUTT
         position: FormulaStudent Vehicle Control Student Researcher
-        location: Bangkok, Thailand
+        location: Bangkok, TH
         start_date: 2023-11
         end_date: 2024-02
-        summary: Developed ROS2-based autonomous navigation systems integrating IMU and camera sensor fusion for competitive robotics applications.
         highlights:
-          - "Implemented the micro-ROS framework on microcontrollers for real-time IMU data acquisition and sensor synchronization, achieving sub-10ms latency for control loop feedback"
-          - "Performed sensor calibration including IMU bias estimation and camera extrinsic alignment to improve localization accuracy in dynamic environments"
+          - "Implemented the micro-ROS framework on microcontrollers for real-time IMU data acquisition and sensor synchronization, achieving sub-10ms latency for control loop feedback."
 
-    Volunteer:
-      - company: FIRST GLOBAL CHALLENGE 2019
-        position: Mentor
-        location: Dubai, UAE
-        start_date: 2019-06
-        end_date: 2019-10
-        summary: Provided technical guidance and strategic mentorship to Myanmar national robotics team, fostering knowledge sharing through structured training sessions and collaborative problem-solving.
-        highlights:
-          - "Led team to win Judges Award at international robotics competition"
-          - "Fostered STEM education and international collaboration in robotics"
-
-      - company: Laboratory of Robotics and Artificial Intelligence (L.O.R.A)
-        position: Robotics Researcher and Founder
+    Leadership & Activities:
+      - company: Robotics Research Laboratory
+        position: Founder - Laboratory of Robotics and AI (L.O.R.A)
         location: Yangon, Myanmar
         start_date: 2019-12
         end_date: 2021-06
-        summary: Founded and led comprehensive robotics research laboratory focusing on practical applications.
         highlights:
-          - "Spearheaded development of autonomous disinfection robots during COVID-19 pandemic in Myanmar"
-          - "Managed multiple concurrent research initiatives and mentored junior researchers"
-          - "Managed cross-functional communication between engineering teams, public health stakeholders, and external partners to align technical development with societal needs during the pandemic"
+          - "Founded and led a comprehensive robotics research laboratory focusing on practical applications."
+          - "Spearheaded development of autonomous disinfection robots during the COVID-19 pandemic in Myanmar."
+          - "Managed cross-functional communication between engineering teams, public health stakeholders, and external partners to align technical development with societal needs."
 
-      - company: ConceptX International School
-        position: Head of Department and Instructor of Robotics and Computer Science
-        location: Yangon, Myanmar
-        start_date: 2021-06
-        end_date: 2021-12
-        summary: Instructed Computer Science and Robotics to approximately 200 students from Upper Primary 5 to Lower Secondary 2.
+      - company: Myanmar National Robotics Team
+        position: Mentor - FIRST GLOBAL Challenge 2019
+        location: Dubai, UAE
+        start_date: 2019-06
+        end_date: 2019-10
         highlights:
-          - "Promoted to Head of Department in October 2021"
-          - "Taught IGCSE Computer Science to Secondary 3 students"
+          - "Provided technical guidance and strategic mentorship to Myanmar's national robotics team through structured training sessions and collaborative problem-solving."
+          - "Led the team to win the Judges Award at an international robotics competition."
 
-    Awards:
-      - title: Best Paper Award - IcoICT 2025 (IEEE Xplore)
-        authors:
-          - "13th International Conference on Information and Communication Technology, Bandung"
-        date: 2025-07-30
-        awarder: IEEE IcoICT 2025
-        summary: Co-winner with Asst. Prof. Dr. Sarawan Wongsa
+    Awards & Recognition:
+      - title: Best Paper Award - 13th IEEE International Conference on ICT (ICoICT 2025)
+        date: 2025
+      - title: First Runner-Up - Smart Infrastructure for Smart City, Metropolitan Waterworks Authority
+        date: 2025
+      - title: KMUTT Hall of Fame - Outstanding Achievement in Smart Infrastructure Development
+        date: 2025
+      - title: Judges Award - FIRST GLOBAL Challenge 2019 (Team Mentor, Myanmar National Team)
+        date: 2019
 
-      - title: Best Presentation Award - ICA-SP Con 2025
-        authors:
-          - "16th Instrumentation, Control and Automation Senior Project Conference"
-        date: 2025-04
-        awarder: ICA-SP Con 2025
-
-      - title: First Runner-Up - Smart Infrastructure for Smart City Competition
-        authors:
-          - "Metropolitan Waterworks Authority, Bangkok"
-        date: 2025-07-30
-        awarder: Metropolitan Waterworks Authority
-
-      - title: KMUTT Hall of Fame
-        authors:
-          - "King Mongkut's University of Technology Thonburi"
-        date: 2025-07-31
-        awarder: KMUTT
-
-      - title: INC Department Outstanding Student Scholarship
-        authors:
-          - "KMUTT - Control System and Instrumentation Department"
-        date: 2024
-        awarder: KMUTT - Winter Semester 2024
-
-      - title: INC Department Outstanding Student Scholarship
-        authors:
-          - "KMUTT - Control System and Instrumentation Department"
-        date: 2023
-        awarder: KMUTT - Winter Semester 2023
-
-      - title: Judges Award - First Global Challenge 2019
-        authors:
-          - "International Robotics Competition, Dubai, UAE"
-        date: 2019-10-27
-        awarder: FIRST Global
-        url: https://first.global/2019-nations/myanmar-2019/
-
-    Publications:
-      - title: Development of high-speed inspection technique based on motion-induced eddy current testing for surface railway defects
-        authors:
-          - N. Brienza
-          - N. Khunsombutcharoen
-          - B. Poopat
-          - C. Janya-anurak
-          - C. Jirarunsatian
-          - R. Mutthanu
-          - Htet Myat Aung
-          - C. Jomdecha
-        publisher: Nondestructive Testing and Evaluation (Taylor & Francis) - Q1, Web of Science (JCR)
-        releaseDate: 2026-03
-        url: https://www.tandfonline.com/doi/abs/10.1080/10589759.2026.2638558
-        summary: Co-author - contributed MIECT probe development and signal processing. Q1-ranked journal (Web of Science, JCR) publication on a high-speed motion-induced eddy current testing technique for detecting surface railway defects, developed with the Maintenance Technology Center (MTC), KMUTT. DOI - 10.1080/10589759.2026.2638558
-
-      - title: Optimized 3D-CNN for Real-Time Infrared Natural Gas Leak Classification
-        authors:
-          - Htet Myat Aung
-          - Sarawan Wongsa
-        publisher: 13th International Conference on Information and Communication Technology (ICoICT 2025)
-        releaseDate: 2025-07-30
-        url: https://ieeexplore.ieee.org/document/11192973
-        summary: First author - developed a high-accuracy (99.75%) 3D CNN model for methane gas leak detection using infrared imaging. Winner of the Best Paper Award. DOI - 10.1109/ICoICT66265.2025.11192973
-
-      - title: Natural Gas Methane Leak Detection Using an Infrared Camera
-        authors:
-          - Htet Myat Aung
-        publisher: 16th Instrumentation, Control and Automation Senior Project Conference (ICA-SP Con 2025)
-        releaseDate: 2025-04
-        summary: Best Presentation Award winner for research on natural gas leak detection systems using infrared imaging technology.
-
-    Skills:
+    Technical Skills:
       - name: Perception & Vision
-        level: Advanced
         icon: fa-solid fa-eye
         keywords: "OpenCV, SLAM (Sparse Bundle Adjustment), Computer Vision, Image Processing, Background Subtraction, Feature Extraction, Camera Calibration"
-
       - name: Robotics
-        level: Advanced
         icon: fa-solid fa-robot
-        keywords: "ROS2, Robot Kinematics and Control, Sensor Fusion, micro-ROS, Autonomous Navigation, Gazebo Simulation"
-
-      - name: Programming Languages
-        level: Advanced
+        keywords: "ROS2, Robot Kinematics & Control, Sensor Fusion, micro-ROS, Autonomous Navigation, Gazebo Simulation"
+      - name: Programming
         icon: fa-solid fa-code
         keywords: "Python, C++, C & Embedded C, Bash Scripting"
-
-      - name: ML/DL
-        level: Advanced
+      - name: ML / DL
         icon: fa-solid fa-brain
         keywords: "PyTorch, TensorFlow, 3D CNN, Object Detection (YOLO), Segmentation, Model Quantization"
-
       - name: Tools
-        level: Advanced
         icon: fa-solid fa-wrench
-        keywords: "Git & Git Version Control, Linux, WSL2"
+        keywords: "Git, Linux, WSL2"
 
     Languages:
       - name: English
-        summary: "Fluent (TOEFL 84 - Writing: 25, Speaking: 26 & Extensive technical documentation and international collaboration experience)"
-
+        summary: "Fluent (TOEFL 84 - Writing: 25, Speaking: 26); extensive technical documentation and international collaboration experience"
       - name: Burmese
         summary: "Native"
-
-    Interests:
-      - name: Artificial Intelligence & Machine Learning
-        icon: fa-solid fa-brain
-        keywords: "Deep Learning, Computer Vision, 3D CNN, Supervised/Unsupervised Learning"
-
-      - name: Robotics & Automation
-        icon: fa-solid fa-robot
-        keywords: "Autonomous Systems, SLAM, Robot Control, ROS2"
-
-      - name: Research & Innovation
-        icon: fa-solid fa-flask
-        keywords: "Non-Destructive Testing, Industrial Applications, Smart Infrastructure"

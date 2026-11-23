@@ -80,11 +80,12 @@
           </a>
         {% endif %}
 
-        {% if socials.email %}
-          <a class="footer-icon-btn" href="mailto:{{ socials.email | encode_email }}" title="Email" aria-label="Email">
+        <details class="email-reveal email-reveal-up">
+          <summary class="footer-icon-btn" title="Show email address" aria-label="Show email address">
             <i class="fa-solid fa-envelope"></i>
-          </a>
-        {% endif %}
+          </summary>
+          <div class="email-popover">{% include email_image.liquid %}</div>
+        </details>
       </div>
     </div>
   </footer>

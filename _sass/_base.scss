@@ -1788,60 +1788,6 @@ mjx-container[jax="CHTML"][display="true"] {
   color: var(--global-text-color);
 }
 
-// CV page: in-page PDF viewer with a mobile fallback card.
-.cv-intro {
-  margin-bottom: 1rem;
-}
-
-.cv-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.cv-viewer {
-  display: block;
-  width: 100%;
-  height: 80vh;
-  min-height: 480px;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 10px;
-  background-color: var(--global-card-bg-color);
-}
-
-.cv-fallback {
-  padding: 2rem 1.5rem;
-  text-align: center;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 10px;
-  background-color: var(--global-card-bg-color);
-
-  p {
-    margin-bottom: 0.75rem;
-  }
-
-  p:last-child {
-    margin-bottom: 0;
-  }
-}
-
-// Most mobile browsers render an embedded PDF as a blank box, so swap in the
-// card below the small-screen breakpoint.
-.cv-fallback-mobile {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .cv-viewer {
-    display: none;
-  }
-
-  .cv-fallback-mobile {
-    display: block;
-  }
-}
-
 // Publications: search control aligned to the top right of the page header.
 .bibsearch-wrap {
   display: flex;
@@ -1934,41 +1880,6 @@ mjx-container[jax="CHTML"][display="true"] {
     ol.bibliography {
       grid-column: 2;
     }
-  }
-}
-
-// CV page: centered column, real buttons. The a.btn rule the theme ships is
-// nested inside .publications, so it never reaches this page.
-.cv-page {
-  // No max-width or auto margins: the heading comes from .post-header at full
-  // container width, so centring this block would indent it relative to it.
-  max-width: 100%;
-}
-
-.cv-actions {
-  justify-content: flex-start;
-}
-
-.cv-actions a.btn,
-.cv-fallback a.btn {
-  display: inline-block;
-  padding: 0.35rem 1rem;
-  color: var(--global-text-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  font-size: 0.85rem;
-  text-decoration: none;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease,
-    background-color 0.15s ease;
-
-  &:hover,
-  &:focus-visible {
-    color: var(--global-theme-color);
-    border-color: var(--global-accent-border);
-    background-color: var(--global-accent-tint);
-    text-decoration: none;
   }
 }
 
@@ -2252,7 +2163,8 @@ body > .container[role="main"] {
   margin: 0.75rem 0 0;
   font-size: 1.15rem;
 
-  a {
+  a,
+  .email-reveal > summary {
     margin-right: 1rem;
     color: var(--global-text-color-light);
 
@@ -2260,6 +2172,83 @@ body > .container[role="main"] {
       color: var(--global-theme-color);
       text-decoration: none;
     }
+  }
+}
+
+// Email: shown only as an image (see _includes/email_image.liquid), inside a
+// <details> popover so the icon rows keep their shape. No mailto link exists,
+// because any clickable address is also a scrapable one.
+.email-reveal {
+  position: relative;
+  display: inline-block;
+
+  > summary {
+    display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker,
+    &::marker {
+      display: none;
+      content: "";
+    }
+  }
+
+  &[open] > summary {
+    color: var(--global-theme-color);
+  }
+}
+
+.email-popover {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 20;
+  // An absolutely positioned box shrinks to fit, which would squash the image
+  // to nothing; size it to the image instead.
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  padding: 0.6rem 0.8rem;
+  line-height: 0;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+// The footer sits at the page bottom, so its popover opens upwards and
+// anchors to the right edge of the icon row.
+.email-reveal-up .email-popover {
+  top: auto;
+  bottom: calc(100% + 0.5rem);
+  left: auto;
+  right: 0;
+}
+
+.email-image img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 22px;
+}
+
+// In the CV contact table, match the surrounding text size.
+.table-cv .email-image img {
+  max-height: 19px;
+}
+
+.email-img-dark {
+  display: none !important;
+}
+
+html[data-theme="dark"] {
+  .email-img-light {
+    display: none !important;
+  }
+
+  .email-img-dark {
+    display: block !important;
   }
 }
 

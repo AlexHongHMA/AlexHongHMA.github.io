@@ -18,7 +18,7 @@ layout: default
       {% endif %}
     </h1>
     {% assign socials = site.data.socials %}
-    <p class="hero-icons">
+    <div class="hero-icons">
       {% if socials.github_username %}
         <a href="https://github.com/{{ socials.github_username }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"
           ><i class="fa-brands fa-github"></i
@@ -34,10 +34,11 @@ layout: default
           ><i class="ai ai-google-scholar"></i
         ></a>
       {% endif %}
-      {% if socials.email %}
-        <a href="mailto:{{ socials.email | encode_email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      {% endif %}
-    </p>
+      <details class="email-reveal">
+        <summary title="Show email address" aria-label="Show email address"><i class="fa-solid fa-envelope"></i></summary>
+        <div class="email-popover">{% include email_image.liquid %}</div>
+      </details>
+    </div>
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}

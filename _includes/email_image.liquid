@@ -1,0 +1,22 @@
+{% comment %}
+  The email address is published only as an image so that scrapers harvesting
+  text (including percent- or entity-encoded mailto links) never see it. Never
+  write the address itself into a template, data file or JSON in this repo.
+  Two renders cover the light and dark themes; _base.scss shows one at a time.
+{% endcomment %}
+<span class="email-image">
+  <img
+    class="email-img-light"
+    src="{{ '/assets/img/contact/contact-light.png' | relative_url }}"
+    width="261"
+    height="22"
+    alt="Email address, shown as an image"
+  >
+  <img
+    class="email-img-dark"
+    src="{{ '/assets/img/contact/contact-dark.png' | relative_url }}"
+    width="261"
+    height="22"
+    alt="Email address, shown as an image"
+  >
+</span>
