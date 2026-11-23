@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "My curriculum vitae, viewable here and available to download.",
+          description: "My curriculum vitae.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -100,20 +100,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/HtetMyatAung_resume_update.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%68%74%65%74%6D%79%61%74%61%75%6E%67.%63%74%6C%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
