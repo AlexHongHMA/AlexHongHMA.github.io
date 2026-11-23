@@ -181,6 +181,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - CLAUDE.md # repo notes for Claude Code; its Liquid examples also break the GitHub Pages build
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -198,6 +199,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - requirements.txt
   - vendor
 keep_files:
   - CNAME
